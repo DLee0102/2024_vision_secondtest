@@ -1,0 +1,4 @@
+Invoking command in '/home/dl/ROSHW_ws/build/learning_tf2_cpp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/dl/ROSHW_ws/src/learning_tf2_cpp -DCMAKE_INSTALL_PREFIX=/home/dl/ROSHW_ws/install/learning_tf2_cpp
+Invoked command in '/home/dl/ROSHW_ws/build/learning_tf2_cpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/dl/ROSHW_ws/src/learning_tf2_cpp -DCMAKE_INSTALL_PREFIX=/home/dl/ROSHW_ws/install/learning_tf2_cpp
+Invoking command in '/home/dl/ROSHW_ws/build/learning_tf2_cpp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/dl/ROSHW_ws/build/learning_tf2_cpp -- -j16 -l16
+Invoked command in '/home/dl/ROSHW_ws/build/learning_tf2_cpp' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/dl/ROSHW_ws/build/learning_tf2_cpp -- -j16 -l16

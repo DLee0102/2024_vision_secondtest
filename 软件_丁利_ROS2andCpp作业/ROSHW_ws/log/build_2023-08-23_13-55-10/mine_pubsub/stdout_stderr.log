@@ -1,0 +1,12 @@
+[35m[1mConsolidate compiler generated dependencies of target miner[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/oreyard.dir/src/publisher_oreyard.cpp.o[0m
+[ 75%] Built target miner
+In file included from [01m[K/home/dl/ROSHW_ws/src/mine_pubsub/src/publisher_oreyard.cpp:1[m[K:
+[01m[K/home/dl/ROSHW_ws/src/mine_pubsub/include/mine_pubsub/publisher_oreyard.hpp:[m[K In constructor ‘[01m[KMine::OreyardPublisher::OreyardPublisher(const string&)[m[K’:
+[01m[K/home/dl/ROSHW_ws/src/mine_pubsub/include/mine_pubsub/publisher_oreyard.hpp:25:104:[m[K [01;31m[Kerror: [m[K‘[01m[Kservice_callback[m[K’ was not declared in this scope; did you mean ‘[01m[Ktimer_callback[m[K’?
+   25 |        mineralarray_server_ = this->create_service<my_interfaces::srv::Digging>("digging_server", [01;31m[Kservice_callback[m[K);
+      |                                                                                                   [01;31m[K^~~~~~~~~~~~~~~~[m[K
+      |                                                                                                   [32m[Ktimer_callback[m[K
+gmake[2]: *** [CMakeFiles/oreyard.dir/build.make:76：CMakeFiles/oreyard.dir/src/publisher_oreyard.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:139：CMakeFiles/oreyard.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

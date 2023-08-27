@@ -1,0 +1,24 @@
+[35m[1mConsolidate compiler generated dependencies of target oreyard[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/miner.dir/src/subscriber_miner.cpp.o[0m
+[ 75%] Built target oreyard
+[100%] [32m[1mLinking CXX executable miner[0m
+[100%] Built target miner
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/dl/ROSHW_ws/install/Mine_pubsub/lib/Mine_pubsub/oreyard
+-- Symlinking: /home/dl/ROSHW_ws/install/Mine_pubsub/lib/Mine_pubsub/miner
+-- Symlinking: /home/dl/ROSHW_ws/install/Mine_pubsub/share/ament_index/resource_index/package_run_dependencies/Mine_pubsub
+-- Symlinking: /home/dl/ROSHW_ws/install/Mine_pubsub/share/ament_index/resource_index/parent_prefix_path/Mine_pubsub
+-- Symlinking: /home/dl/ROSHW_ws/install/Mine_pubsub/share/Mine_pubsub/environment/ament_prefix_path.sh
+-- Symlinking: /home/dl/ROSHW_ws/install/Mine_pubsub/share/Mine_pubsub/environment/ament_prefix_path.dsv
+-- Symlinking: /home/dl/ROSHW_ws/install/Mine_pubsub/share/Mine_pubsub/environment/path.sh
+-- Symlinking: /home/dl/ROSHW_ws/install/Mine_pubsub/share/Mine_pubsub/environment/path.dsv
+-- Symlinking: /home/dl/ROSHW_ws/install/Mine_pubsub/share/Mine_pubsub/local_setup.bash
+-- Symlinking: /home/dl/ROSHW_ws/install/Mine_pubsub/share/Mine_pubsub/local_setup.sh
+-- Symlinking: /home/dl/ROSHW_ws/install/Mine_pubsub/share/Mine_pubsub/local_setup.zsh
+-- Symlinking: /home/dl/ROSHW_ws/install/Mine_pubsub/share/Mine_pubsub/local_setup.dsv
+-- Symlinking: /home/dl/ROSHW_ws/install/Mine_pubsub/share/Mine_pubsub/package.dsv
+-- Symlinking: /home/dl/ROSHW_ws/install/Mine_pubsub/share/ament_index/resource_index/packages/Mine_pubsub
+-- Symlinking: /home/dl/ROSHW_ws/install/Mine_pubsub/share/Mine_pubsub/cmake/Mine_pubsubConfig.cmake
+-- Symlinking: /home/dl/ROSHW_ws/install/Mine_pubsub/share/Mine_pubsub/cmake/Mine_pubsubConfig-version.cmake
+-- Symlinking: /home/dl/ROSHW_ws/install/Mine_pubsub/share/Mine_pubsub/package.xml

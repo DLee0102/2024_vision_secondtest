@@ -1,0 +1,3 @@
+gmake[2]: *** [CMakeFiles/buffertransform.dir/build.make:76: CMakeFiles/buffertransform.dir/src/buffertransform.cpp.o] 中断
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/buffertransform.dir/all] 中断
+gmake: *** [Makefile:146: all] 中断

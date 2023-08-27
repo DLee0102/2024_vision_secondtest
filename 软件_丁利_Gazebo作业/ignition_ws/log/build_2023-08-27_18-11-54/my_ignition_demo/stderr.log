@@ -1,0 +1,13 @@
+[31mCMake Error at CMakeLists.txt:14 (find_package):
+  Could not find a configuration file for package "OpenCV" that is compatible
+  with requested version "3.2.0".
+
+  The following configuration files were considered but not accepted:
+
+    /usr/local/lib/cmake/opencv4/OpenCVConfig.cmake, version: 4.7.0
+    /usr/lib/x86_64-linux-gnu/cmake/opencv4/OpenCVConfig.cmake, version: 4.5.4
+    /lib/x86_64-linux-gnu/cmake/opencv4/OpenCVConfig.cmake, version: 4.5.4
+
+
+[0m
+gmake: *** [Makefile:267：cmake_check_build_system] 错误 1

@@ -1,0 +1,1 @@
+/home/dl/ROSHW_ws/src/my_interfaces/msg/Mineral.msg

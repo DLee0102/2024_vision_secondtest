@@ -1,0 +1,65 @@
+[0.006s] Invoking command in '/home/dl/ROSHW_ws/build/Mine_pubsub': AMENT_PREFIX_PATH=/home/dl/ROSHW_ws/install/my_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dl/ROSHW_ws/install/my_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/dl/ROSHW_ws/install/my_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/dl/ROSHW_ws/install/my_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/dl/ROSHW_ws/build/Mine_pubsub -- -j16 -l16
+[0.038s] [35m[1mConsolidate compiler generated dependencies of target oreyard[0m
+[0.038s] [35m[1mConsolidate compiler generated dependencies of target miner[0m
+[0.052s] [ 50%] [32mBuilding CXX object CMakeFiles/miner.dir/src/subscriber_miner.cpp.o[0m
+[0.052s] [ 50%] [32mBuilding CXX object CMakeFiles/oreyard.dir/src/publisher_oreyard.cpp.o[0m
+[1.863s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[1.863s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[1.863s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[1.863s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[1.863s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[1.863s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[1.863s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[1.863s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[1.864s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.864s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.864s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.864s]                  from [01m[K/home/dl/ROSHW_ws/src/Mine_pubsub/include/Mine_pubsub/subscriber_miner.hpp:7[m[K,
+[1.864s]                  from [01m[K/home/dl/ROSHW_ws/src/Mine_pubsub/src/subscriber_miner.cpp:1[m[K:
+[1.864s] [01m[K/home/dl/ROSHW_ws/src/Mine_pubsub/src/subscriber_miner.cpp:[m[K In member function ‘[01m[Kvoid Mine::MinerSubscriber::topic_callback(my_interfaces::msg::MineralArray) const[m[K’:
+[1.864s] [01m[K/home/dl/ROSHW_ws/src/Mine_pubsub/src/subscriber_miner.cpp:11:41:[m[K [01;35m[Kwarning: [m[Kzero-length gnu_printf format string [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat-zero-length-Wformat-zero-length]8;;[m[K]
+[1.864s]    11 |         RCLCPP_INFO(this->get_logger(), [01;35m[K""[m[K);
+[1.864s]       |                                         [01;35m[K^~[m[K
+[1.870s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[1.871s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[1.871s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[1.871s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[1.871s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[1.871s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[1.871s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[1.871s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[1.871s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.871s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.871s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.871s]                  from [01m[K/home/dl/ROSHW_ws/src/Mine_pubsub/include/Mine_pubsub/publisher_oreyard.hpp:9[m[K,
+[1.871s]                  from [01m[K/home/dl/ROSHW_ws/src/Mine_pubsub/src/publisher_oreyard.cpp:1[m[K:
+[1.871s] [01m[K/home/dl/ROSHW_ws/src/Mine_pubsub/src/publisher_oreyard.cpp:[m[K In member function ‘[01m[Kvoid Mine::OreyardPublisher::timer_callback()[m[K’:
+[1.871s] [01m[K/home/dl/ROSHW_ws/src/Mine_pubsub/src/publisher_oreyard.cpp:44:41:[m[K [01;35m[Kwarning: [m[Kzero-length gnu_printf format string [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat-zero-length-Wformat-zero-length]8;;[m[K]
+[1.871s]    44 |         RCLCPP_INFO(this->get_logger(), [01;35m[K""[m[K);
+[1.871s]       |                                         [01;35m[K^~[m[K
+[3.381s] [ 75%] [32m[1mLinking CXX executable oreyard[0m
+[3.522s] [ 75%] Built target oreyard
+[6.245s] [100%] [32m[1mLinking CXX executable miner[0m
+[6.492s] [100%] Built target miner
+[6.500s] Invoked command in '/home/dl/ROSHW_ws/build/Mine_pubsub' returned '0': AMENT_PREFIX_PATH=/home/dl/ROSHW_ws/install/my_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dl/ROSHW_ws/install/my_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/dl/ROSHW_ws/install/my_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/dl/ROSHW_ws/install/my_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/dl/ROSHW_ws/build/Mine_pubsub -- -j16 -l16
+[6.518s] Invoking command in '/home/dl/ROSHW_ws/build/Mine_pubsub': AMENT_PREFIX_PATH=/home/dl/ROSHW_ws/install/my_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dl/ROSHW_ws/install/my_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/dl/ROSHW_ws/install/my_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/dl/ROSHW_ws/install/my_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/dl/ROSHW_ws/build/Mine_pubsub
+[6.523s] -- Install configuration: ""
+[6.523s] -- Execute custom install script
+[6.524s] -- Up-to-date symlink: /home/dl/ROSHW_ws/install/Mine_pubsub/lib/Mine_pubsub/oreyard
+[6.524s] -- Up-to-date symlink: /home/dl/ROSHW_ws/install/Mine_pubsub/lib/Mine_pubsub/miner
+[6.524s] -- Up-to-date symlink: /home/dl/ROSHW_ws/install/Mine_pubsub/share/ament_index/resource_index/package_run_dependencies/Mine_pubsub
+[6.524s] -- Up-to-date symlink: /home/dl/ROSHW_ws/install/Mine_pubsub/share/ament_index/resource_index/parent_prefix_path/Mine_pubsub
+[6.524s] -- Up-to-date symlink: /home/dl/ROSHW_ws/install/Mine_pubsub/share/Mine_pubsub/environment/ament_prefix_path.sh
+[6.524s] -- Up-to-date symlink: /home/dl/ROSHW_ws/install/Mine_pubsub/share/Mine_pubsub/environment/ament_prefix_path.dsv
+[6.524s] -- Up-to-date symlink: /home/dl/ROSHW_ws/install/Mine_pubsub/share/Mine_pubsub/environment/path.sh
+[6.524s] -- Up-to-date symlink: /home/dl/ROSHW_ws/install/Mine_pubsub/share/Mine_pubsub/environment/path.dsv
+[6.524s] -- Up-to-date symlink: /home/dl/ROSHW_ws/install/Mine_pubsub/share/Mine_pubsub/local_setup.bash
+[6.524s] -- Up-to-date symlink: /home/dl/ROSHW_ws/install/Mine_pubsub/share/Mine_pubsub/local_setup.sh
+[6.524s] -- Up-to-date symlink: /home/dl/ROSHW_ws/install/Mine_pubsub/share/Mine_pubsub/local_setup.zsh
+[6.525s] -- Up-to-date symlink: /home/dl/ROSHW_ws/install/Mine_pubsub/share/Mine_pubsub/local_setup.dsv
+[6.525s] -- Symlinking: /home/dl/ROSHW_ws/install/Mine_pubsub/share/Mine_pubsub/package.dsv
+[6.530s] -- Up-to-date symlink: /home/dl/ROSHW_ws/install/Mine_pubsub/share/ament_index/resource_index/packages/Mine_pubsub
+[6.530s] -- Up-to-date symlink: /home/dl/ROSHW_ws/install/Mine_pubsub/share/Mine_pubsub/cmake/Mine_pubsubConfig.cmake
+[6.530s] -- Up-to-date symlink: /home/dl/ROSHW_ws/install/Mine_pubsub/share/Mine_pubsub/cmake/Mine_pubsubConfig-version.cmake
+[6.530s] -- Up-to-date symlink: /home/dl/ROSHW_ws/install/Mine_pubsub/share/Mine_pubsub/package.xml
+[6.534s] Invoked command in '/home/dl/ROSHW_ws/build/Mine_pubsub' returned '0': AMENT_PREFIX_PATH=/home/dl/ROSHW_ws/install/my_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dl/ROSHW_ws/install/my_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/dl/ROSHW_ws/install/my_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/dl/ROSHW_ws/install/my_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/dl/ROSHW_ws/build/Mine_pubsub

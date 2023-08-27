@@ -1,0 +1,28 @@
+[0.010s] Invoking command in '/home/dl/ROSHW_ws/build/learning_tf2_cpp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/dl/ROSHW_ws/build/learning_tf2_cpp -- -j16 -l16
+[0.055s] [35m[1mConsolidate compiler generated dependencies of target hero_tf2_listener[0m
+[0.074s] [ 50%] [32mBuilding CXX object CMakeFiles/hero_tf2_listener.dir/src/hero_tf2_listener.cpp.o[0m
+[2.604s] [100%] [32m[1mLinking CXX executable hero_tf2_listener[0m
+[2.725s] [100%] Built target hero_tf2_listener
+[2.736s] Invoked command in '/home/dl/ROSHW_ws/build/learning_tf2_cpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/dl/ROSHW_ws/build/learning_tf2_cpp -- -j16 -l16
+[2.762s] Invoking command in '/home/dl/ROSHW_ws/build/learning_tf2_cpp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/dl/ROSHW_ws/build/learning_tf2_cpp
+[2.767s] -- Install configuration: ""
+[2.767s] -- Installing: /home/dl/ROSHW_ws/install/learning_tf2_cpp/lib/learning_tf2_cpp/hero_tf2_listener
+[2.767s] -- Set runtime path of "/home/dl/ROSHW_ws/install/learning_tf2_cpp/lib/learning_tf2_cpp/hero_tf2_listener" to ""
+[2.767s] -- Up-to-date: /home/dl/ROSHW_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/launch
+[2.767s] -- Up-to-date: /home/dl/ROSHW_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/launch/hero_tf2_listener.launch.py
+[2.767s] -- Up-to-date: /home/dl/ROSHW_ws/install/learning_tf2_cpp/share/ament_index/resource_index/package_run_dependencies/learning_tf2_cpp
+[2.767s] -- Up-to-date: /home/dl/ROSHW_ws/install/learning_tf2_cpp/share/ament_index/resource_index/parent_prefix_path/learning_tf2_cpp
+[2.768s] -- Up-to-date: /home/dl/ROSHW_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/environment/ament_prefix_path.sh
+[2.768s] -- Up-to-date: /home/dl/ROSHW_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/environment/ament_prefix_path.dsv
+[2.768s] -- Up-to-date: /home/dl/ROSHW_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/environment/path.sh
+[2.768s] -- Up-to-date: /home/dl/ROSHW_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/environment/path.dsv
+[2.768s] -- Up-to-date: /home/dl/ROSHW_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/local_setup.bash
+[2.768s] -- Up-to-date: /home/dl/ROSHW_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/local_setup.sh
+[2.768s] -- Up-to-date: /home/dl/ROSHW_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/local_setup.zsh
+[2.768s] -- Up-to-date: /home/dl/ROSHW_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/local_setup.dsv
+[2.768s] -- Installing: /home/dl/ROSHW_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/package.dsv
+[2.768s] -- Up-to-date: /home/dl/ROSHW_ws/install/learning_tf2_cpp/share/ament_index/resource_index/packages/learning_tf2_cpp
+[2.768s] -- Up-to-date: /home/dl/ROSHW_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/cmake/learning_tf2_cppConfig.cmake
+[2.768s] -- Up-to-date: /home/dl/ROSHW_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/cmake/learning_tf2_cppConfig-version.cmake
+[2.768s] -- Up-to-date: /home/dl/ROSHW_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/package.xml
+[2.769s] Invoked command in '/home/dl/ROSHW_ws/build/learning_tf2_cpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/dl/ROSHW_ws/build/learning_tf2_cpp

@@ -1,0 +1,7 @@
+[01m[K/home/dl/ROSHW_ws/src/mine_pubsub/src/publisher_oreyard.cpp:[m[K In member function ‘[01m[Kvoid Mine::OreyardPublisher::service_digging(std::shared_ptr<my_interfaces::srv::Digging_Request_<std::allocator<void> > >, std::shared_ptr<my_interfaces::srv::Digging_Response_<std::allocator<void> > >)[m[K’:
+[01m[K/home/dl/ROSHW_ws/src/mine_pubsub/src/publisher_oreyard.cpp:47:104:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kreq[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   47 |     void OreyardPublisher::service_digging([01;35m[Kconst std::shared_ptr<my_interfaces::srv::Digging::Request> req[m[K,
+      |                                            [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[01m[K/home/dl/ROSHW_ws/src/mine_pubsub/src/publisher_oreyard.cpp:48:64:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kresp[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   48 |         [01;35m[Kstd::shared_ptr<my_interfaces::srv::Digging::Response> resp[m[K)
+      |         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K

@@ -1,0 +1,1 @@
+/home/dl/ROSHW_ws/build/my_interfaces/rosidl_typesupport_fastrtps_c/my_interfaces/msg/detail/mineral_array__rosidl_typesupport_fastrtps_c.h

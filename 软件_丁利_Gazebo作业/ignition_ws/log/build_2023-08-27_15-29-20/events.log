@@ -1,0 +1,117 @@
+[0.000000] (-) TimerEvent: {}
+[0.000317] (my_ignition_demo) JobQueued: {'identifier': 'my_ignition_demo', 'dependencies': OrderedDict()}
+[0.000371] (my_ignition_demo) JobStarted: {'identifier': 'my_ignition_demo'}
+[0.008192] (my_ignition_demo) JobProgress: {'identifier': 'my_ignition_demo', 'progress': 'cmake'}
+[0.008752] (my_ignition_demo) JobProgress: {'identifier': 'my_ignition_demo', 'progress': 'build'}
+[0.009416] (my_ignition_demo) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/dl/ignition_ws/build/my_ignition_demo', '--', '-j16', '-l16'], 'cwd': '/home/dl/ignition_ws/build/my_ignition_demo', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'dl'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/dl'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('CONDA_SHLVL', '0'), ('TERM_PROGRAM_VERSION', '1.81.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1737'), ('SYSTEMD_EXEC_PID', '2204'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3418'), ('_colcon_cd_root', '/opt/ros/humble/'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'dl'), ('JOURNAL_STREAM', '8:38065'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'dl'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/media/dl/dlssd/Ubuntu/miniconda/miniconda3/condabin:/usr/local/lib/nodejs/node-v20.3.1-linux-x64/bin:/home/dl/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/DLee:@/tmp/.ICE-unix/2177,unix/DLee:/tmp/.ICE-unix/2177'), ('INVOCATION_ID', 'f8fd1ba19e064ea183d4a0f4bdc09ee7'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-25eb414b3a.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/media/dl/dlssd/Ubuntu/miniconda/miniconda3/bin/python'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/dl/ignition_ws/build/my_ignition_demo'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/media/dl/dlssd/Ubuntu/miniconda/miniconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.040405] (my_ignition_demo) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target myrobot_follow\x1b[0m\n'}
+[0.052824] (my_ignition_demo) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/myrobot_follow.dir/src/myrobot_follow.cpp.o\x1b[0m\n'}
+[0.099473] (-) TimerEvent: {}
+[0.199749] (-) TimerEvent: {}
+[0.300068] (-) TimerEvent: {}
+[0.400335] (-) TimerEvent: {}
+[0.500623] (-) TimerEvent: {}
+[0.600962] (-) TimerEvent: {}
+[0.701315] (-) TimerEvent: {}
+[0.801638] (-) TimerEvent: {}
+[0.901905] (-) TimerEvent: {}
+[1.002210] (-) TimerEvent: {}
+[1.102557] (-) TimerEvent: {}
+[1.202864] (-) TimerEvent: {}
+[1.303293] (-) TimerEvent: {}
+[1.403570] (-) TimerEvent: {}
+[1.503847] (-) TimerEvent: {}
+[1.604124] (-) TimerEvent: {}
+[1.704383] (-) TimerEvent: {}
+[1.804646] (-) TimerEvent: {}
+[1.904928] (-) TimerEvent: {}
+[2.005213] (-) TimerEvent: {}
+[2.105501] (-) TimerEvent: {}
+[2.205845] (-) TimerEvent: {}
+[2.306113] (-) TimerEvent: {}
+[2.406403] (-) TimerEvent: {}
+[2.506681] (-) TimerEvent: {}
+[2.607160] (-) TimerEvent: {}
+[2.707457] (-) TimerEvent: {}
+[2.807727] (-) TimerEvent: {}
+[2.908020] (-) TimerEvent: {}
+[3.008318] (-) TimerEvent: {}
+[3.108622] (-) TimerEvent: {}
+[3.208896] (-) TimerEvent: {}
+[3.309174] (-) TimerEvent: {}
+[3.409485] (-) TimerEvent: {}
+[3.509826] (-) TimerEvent: {}
+[3.610155] (-) TimerEvent: {}
+[3.710405] (-) TimerEvent: {}
+[3.810688] (-) TimerEvent: {}
+[3.910989] (-) TimerEvent: {}
+[4.011304] (-) TimerEvent: {}
+[4.111607] (-) TimerEvent: {}
+[4.211895] (-) TimerEvent: {}
+[4.312179] (-) TimerEvent: {}
+[4.412461] (-) TimerEvent: {}
+[4.512743] (-) TimerEvent: {}
+[4.613030] (-) TimerEvent: {}
+[4.713329] (-) TimerEvent: {}
+[4.813631] (-) TimerEvent: {}
+[4.913986] (-) TimerEvent: {}
+[5.014304] (-) TimerEvent: {}
+[5.114603] (-) TimerEvent: {}
+[5.214895] (-) TimerEvent: {}
+[5.315218] (-) TimerEvent: {}
+[5.415534] (-) TimerEvent: {}
+[5.515853] (-) TimerEvent: {}
+[5.616145] (-) TimerEvent: {}
+[5.716405] (-) TimerEvent: {}
+[5.817167] (-) TimerEvent: {}
+[5.917450] (-) TimerEvent: {}
+[6.017717] (-) TimerEvent: {}
+[6.117978] (-) TimerEvent: {}
+[6.218259] (-) TimerEvent: {}
+[6.318525] (-) TimerEvent: {}
+[6.418814] (-) TimerEvent: {}
+[6.519105] (-) TimerEvent: {}
+[6.619757] (-) TimerEvent: {}
+[6.720047] (-) TimerEvent: {}
+[6.820324] (-) TimerEvent: {}
+[6.920605] (-) TimerEvent: {}
+[7.020876] (-) TimerEvent: {}
+[7.121177] (-) TimerEvent: {}
+[7.221462] (-) TimerEvent: {}
+[7.321776] (-) TimerEvent: {}
+[7.393806] (my_ignition_demo) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable myrobot_follow\x1b[0m\n'}
+[7.421902] (-) TimerEvent: {}
+[7.521249] (my_ignition_demo) StderrLine: {'line': b'/usr/bin/ld: warning: libopencv_imgproc.so.4.5d, needed by /opt/ros/humble/lib/libcv_bridge.so, may conflict with libopencv_imgproc.so.407\n'}
+[7.521565] (my_ignition_demo) StderrLine: {'line': b'/usr/bin/ld: warning: libopencv_core.so.4.5d, needed by /opt/ros/humble/lib/libcv_bridge.so, may conflict with libopencv_core.so.407\n'}
+[7.521964] (-) TimerEvent: {}
+[7.622861] (-) TimerEvent: {}
+[7.723175] (-) TimerEvent: {}
+[7.823507] (-) TimerEvent: {}
+[7.878609] (my_ignition_demo) StdoutLine: {'line': b'[100%] Built target myrobot_follow\n'}
+[7.887127] (my_ignition_demo) CommandEnded: {'returncode': 0}
+[7.903292] (my_ignition_demo) JobProgress: {'identifier': 'my_ignition_demo', 'progress': 'install'}
+[7.908723] (my_ignition_demo) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/dl/ignition_ws/build/my_ignition_demo'], 'cwd': '/home/dl/ignition_ws/build/my_ignition_demo', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'dl'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/dl'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('CONDA_SHLVL', '0'), ('TERM_PROGRAM_VERSION', '1.81.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1737'), ('SYSTEMD_EXEC_PID', '2204'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3418'), ('_colcon_cd_root', '/opt/ros/humble/'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'dl'), ('JOURNAL_STREAM', '8:38065'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'dl'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/media/dl/dlssd/Ubuntu/miniconda/miniconda3/condabin:/usr/local/lib/nodejs/node-v20.3.1-linux-x64/bin:/home/dl/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/DLee:@/tmp/.ICE-unix/2177,unix/DLee:/tmp/.ICE-unix/2177'), ('INVOCATION_ID', 'f8fd1ba19e064ea183d4a0f4bdc09ee7'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-25eb414b3a.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/media/dl/dlssd/Ubuntu/miniconda/miniconda3/bin/python'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/dl/ignition_ws/build/my_ignition_demo'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/media/dl/dlssd/Ubuntu/miniconda/miniconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[7.913938] (my_ignition_demo) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[7.914131] (my_ignition_demo) StdoutLine: {'line': b'-- Installing: /home/dl/ignition_ws/install/my_ignition_demo/lib/my_ignition_demo/myrobot_follow\n'}
+[7.916968] (my_ignition_demo) StdoutLine: {'line': b'-- Set runtime path of "/home/dl/ignition_ws/install/my_ignition_demo/lib/my_ignition_demo/myrobot_follow" to ""\n'}
+[7.917126] (my_ignition_demo) StdoutLine: {'line': b'-- Up-to-date: /home/dl/ignition_ws/install/my_ignition_demo/share/my_ignition_demo/launch\n'}
+[7.917277] (my_ignition_demo) StdoutLine: {'line': b'-- Up-to-date: /home/dl/ignition_ws/install/my_ignition_demo/share/my_ignition_demo/launch/myrobot_follow.launch.py\n'}
+[7.917363] (my_ignition_demo) StdoutLine: {'line': b'-- Up-to-date: /home/dl/ignition_ws/install/my_ignition_demo/share/ament_index/resource_index/package_run_dependencies/my_ignition_demo\n'}
+[7.917439] (my_ignition_demo) StdoutLine: {'line': b'-- Up-to-date: /home/dl/ignition_ws/install/my_ignition_demo/share/ament_index/resource_index/parent_prefix_path/my_ignition_demo\n'}
+[7.917527] (my_ignition_demo) StdoutLine: {'line': b'-- Up-to-date: /home/dl/ignition_ws/install/my_ignition_demo/share/my_ignition_demo/environment/ament_prefix_path.sh\n'}
+[7.917590] (my_ignition_demo) StdoutLine: {'line': b'-- Up-to-date: /home/dl/ignition_ws/install/my_ignition_demo/share/my_ignition_demo/environment/ament_prefix_path.dsv\n'}
+[7.917650] (my_ignition_demo) StdoutLine: {'line': b'-- Up-to-date: /home/dl/ignition_ws/install/my_ignition_demo/share/my_ignition_demo/environment/path.sh\n'}
+[7.917708] (my_ignition_demo) StdoutLine: {'line': b'-- Up-to-date: /home/dl/ignition_ws/install/my_ignition_demo/share/my_ignition_demo/environment/path.dsv\n'}
+[7.917773] (my_ignition_demo) StdoutLine: {'line': b'-- Up-to-date: /home/dl/ignition_ws/install/my_ignition_demo/share/my_ignition_demo/local_setup.bash\n'}
+[7.917831] (my_ignition_demo) StdoutLine: {'line': b'-- Up-to-date: /home/dl/ignition_ws/install/my_ignition_demo/share/my_ignition_demo/local_setup.sh\n'}
+[7.917890] (my_ignition_demo) StdoutLine: {'line': b'-- Up-to-date: /home/dl/ignition_ws/install/my_ignition_demo/share/my_ignition_demo/local_setup.zsh\n'}
+[7.917946] (my_ignition_demo) StdoutLine: {'line': b'-- Up-to-date: /home/dl/ignition_ws/install/my_ignition_demo/share/my_ignition_demo/local_setup.dsv\n'}
+[7.918005] (my_ignition_demo) StdoutLine: {'line': b'-- Installing: /home/dl/ignition_ws/install/my_ignition_demo/share/my_ignition_demo/package.dsv\n'}
+[7.918070] (my_ignition_demo) StdoutLine: {'line': b'-- Up-to-date: /home/dl/ignition_ws/install/my_ignition_demo/share/ament_index/resource_index/packages/my_ignition_demo\n'}
+[7.918177] (my_ignition_demo) StdoutLine: {'line': b'-- Up-to-date: /home/dl/ignition_ws/install/my_ignition_demo/share/my_ignition_demo/cmake/my_ignition_demoConfig.cmake\n'}
+[7.918260] (my_ignition_demo) StdoutLine: {'line': b'-- Up-to-date: /home/dl/ignition_ws/install/my_ignition_demo/share/my_ignition_demo/cmake/my_ignition_demoConfig-version.cmake\n'}
+[7.918534] (my_ignition_demo) StdoutLine: {'line': b'-- Up-to-date: /home/dl/ignition_ws/install/my_ignition_demo/share/my_ignition_demo/package.xml\n'}
+[7.918995] (my_ignition_demo) CommandEnded: {'returncode': 0}
+[7.924055] (-) TimerEvent: {}
+[7.953636] (my_ignition_demo) JobEnded: {'identifier': 'my_ignition_demo', 'rc': 0}
+[7.954128] (-) EventReactorShutdown: {}

@@ -1,0 +1,19 @@
+[01m[K/home/dl/ignition_ws/src/my_ignition_demo/src/myrobot_follow.cpp:[m[K In function ‘[01m[Kvoid Mydemo::findCenter(cv::Mat&, double&, double&, double, bool&)[m[K’:
+[01m[K/home/dl/ignition_ws/src/my_ignition_demo/src/myrobot_follow.cpp:20:31:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::vector<cv::Point_<int> > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+   20 |             for (int i = 0; [01;35m[Ki < contours.size()[m[K; i ++)
+      |                             [01;35m[K~~^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/dl/ignition_ws/src/my_ignition_demo/src/myrobot_follow.cpp:10:78:[m[K [01;35m[Kwarning: [m[Kparameter ‘[01m[Krect_size[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-parameter-Wunused-but-set-parameter]8;;[m[K]
+   10 |     void findCenter(cv::Mat& img, double& center_x, double& center_y, [01;35m[Kdouble rect_size[m[K, bool& isFound)
+      |                                                                       [01;35m[K~~~~~~~^~~~~~~~~[m[K
+[01m[K/home/dl/ignition_ws/src/my_ignition_demo/src/myrobot_follow.cpp:[m[K In member function ‘[01m[Kvoid Mydemo::Myrobot_follow::topic_callback(const Image&)[m[K’:
+[01m[K/home/dl/ignition_ws/src/my_ignition_demo/src/myrobot_follow.cpp:46:19:[m[K [01;35m[Kwarning: [m[K‘[01m[Krect_size[m[K’ may be used uninitialized [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmaybe-uninitialized-Wmaybe-uninitialized]8;;[m[K]
+   46 |         [01;35m[KfindCenter(pre_img, center_x, center_y, rect_size, isFound)[m[K;
+      |         [01;35m[K~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+/usr/bin/ld: warning: libopencv_imgproc.so.4.5d, needed by /opt/ros/humble/lib/libcv_bridge.so, may conflict with libopencv_imgproc.so.407
+/usr/bin/ld: warning: libopencv_core.so.4.5d, needed by /opt/ros/humble/lib/libcv_bridge.so, may conflict with libopencv_core.so.407
+/usr/bin/ld: CMakeFiles/myrobot_follow.dir/src/myrobot_follow.cpp.o: in function `Mydemo::Myrobot_follow::topic_callback(sensor_msgs::msg::Image_<std::allocator<void> > const&)':
+myrobot_follow.cpp:(.text+0xa12): undefined reference to `Mydemo::Myrobot_follow::findCenter(cv::Mat&, double&, double&, double, bool&)'
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/myrobot_follow.dir/build.make:191：myrobot_follow] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/myrobot_follow.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

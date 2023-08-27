@@ -1,0 +1,35 @@
+[35m[1mConsolidate compiler generated dependencies of target oreyard[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/miner.dir/src/subscriber_miner.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/oreyard.dir/src/publisher_oreyard.cpp.o[0m
+[01m[K/home/dl/ROSHW_ws/src/mine_pubsub/src/publisher_oreyard.cpp:[m[K In member function ‘[01m[Kvoid Mine::OreyardPublisher::service_digging(std::shared_ptr<my_interfaces::srv::Digging_Request_<std::allocator<void> > >, std::shared_ptr<my_interfaces::srv::Digging_Response_<std::allocator<void> > >)[m[K’:
+[01m[K/home/dl/ROSHW_ws/src/mine_pubsub/src/publisher_oreyard.cpp:47:104:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kreq[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   47 |     void OreyardPublisher::service_digging([01;35m[Kconst std::shared_ptr<my_interfaces::srv::Digging::Request> req[m[K,
+      |                                            [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[01m[K/home/dl/ROSHW_ws/src/mine_pubsub/src/publisher_oreyard.cpp:48:64:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kresp[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   48 |         [01;35m[Kstd::shared_ptr<my_interfaces::srv::Digging::Response> resp[m[K)
+      |         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[ 75%] [32m[1mLinking CXX executable oreyard[0m
+[ 75%] Built target oreyard
+[100%] [32m[1mLinking CXX executable miner[0m
+[100%] Built target miner
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/dl/ROSHW_ws/install/mine_pubsub/share/mine_pubsub/launch/mine_pubsub.launch.py
+-- Up-to-date symlink: /home/dl/ROSHW_ws/install/mine_pubsub/share/mine_pubsub/config/params.yaml
+-- Up-to-date symlink: /home/dl/ROSHW_ws/install/mine_pubsub/lib/mine_pubsub/oreyard
+-- Up-to-date symlink: /home/dl/ROSHW_ws/install/mine_pubsub/lib/mine_pubsub/miner
+-- Up-to-date symlink: /home/dl/ROSHW_ws/install/mine_pubsub/share/ament_index/resource_index/package_run_dependencies/mine_pubsub
+-- Up-to-date symlink: /home/dl/ROSHW_ws/install/mine_pubsub/share/ament_index/resource_index/parent_prefix_path/mine_pubsub
+-- Up-to-date symlink: /home/dl/ROSHW_ws/install/mine_pubsub/share/mine_pubsub/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/dl/ROSHW_ws/install/mine_pubsub/share/mine_pubsub/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/dl/ROSHW_ws/install/mine_pubsub/share/mine_pubsub/environment/path.sh
+-- Up-to-date symlink: /home/dl/ROSHW_ws/install/mine_pubsub/share/mine_pubsub/environment/path.dsv
+-- Up-to-date symlink: /home/dl/ROSHW_ws/install/mine_pubsub/share/mine_pubsub/local_setup.bash
+-- Up-to-date symlink: /home/dl/ROSHW_ws/install/mine_pubsub/share/mine_pubsub/local_setup.sh
+-- Up-to-date symlink: /home/dl/ROSHW_ws/install/mine_pubsub/share/mine_pubsub/local_setup.zsh
+-- Up-to-date symlink: /home/dl/ROSHW_ws/install/mine_pubsub/share/mine_pubsub/local_setup.dsv
+-- Symlinking: /home/dl/ROSHW_ws/install/mine_pubsub/share/mine_pubsub/package.dsv
+-- Up-to-date symlink: /home/dl/ROSHW_ws/install/mine_pubsub/share/ament_index/resource_index/packages/mine_pubsub
+-- Up-to-date symlink: /home/dl/ROSHW_ws/install/mine_pubsub/share/mine_pubsub/cmake/mine_pubsubConfig.cmake
+-- Up-to-date symlink: /home/dl/ROSHW_ws/install/mine_pubsub/share/mine_pubsub/cmake/mine_pubsubConfig-version.cmake
+-- Up-to-date symlink: /home/dl/ROSHW_ws/install/mine_pubsub/share/mine_pubsub/package.xml

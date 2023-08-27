@@ -1,0 +1,17 @@
+[0.011s] Invoking command in '/home/dl/ignition_ws/build/my_ignition_demo': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/dl/ignition_ws/build/my_ignition_demo -- -j16 -l16
+[0.041s] [35m[1mConsolidate compiler generated dependencies of target myrobot_follow[0m
+[0.055s] [ 50%] [32mBuilding CXX object CMakeFiles/myrobot_follow.dir/src/myrobot_follow.cpp.o[0m
+[2.429s] [01m[K/home/dl/ignition_ws/src/my_ignition_demo/src/myrobot_follow.cpp:[m[K In function ‘[01m[Kvoid Mydemo::findCenter(cv::Mat&, double&, double&, double&, bool&)[m[K’:
+[2.429s] [01m[K/home/dl/ignition_ws/src/my_ignition_demo/src/myrobot_follow.cpp:20:36:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Klong int[m[K’ and ‘[01m[Kstd::vector<std::vector<cv::Point_<int> > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[2.429s]    20 |             for (long int i = 0; [01;35m[Ki < contours.size()[m[K; i ++)
+[2.429s]       |                                  [01;35m[K~~^~~~~~~~~~~~~~~~~[m[K
+[7.593s] [100%] [32m[1mLinking CXX executable myrobot_follow[0m
+[7.731s] /usr/bin/ld: warning: libopencv_imgproc.so.4.5d, needed by /opt/ros/humble/lib/libcv_bridge.so, may conflict with libopencv_imgproc.so.407
+[7.731s] /usr/bin/ld: warning: libopencv_core.so.4.5d, needed by /opt/ros/humble/lib/libcv_bridge.so, may conflict with libopencv_core.so.407
+[8.041s] /usr/bin/ld: CMakeFiles/myrobot_follow.dir/src/myrobot_follow.cpp.o: in function `Mydemo::Myrobot_follow::topic_callback(sensor_msgs::msg::Image_<std::allocator<void> > const&)':
+[8.041s] myrobot_follow.cpp:(.text+0xa20): undefined reference to `Mydemo::Myrobot_follow::findCenter(cv::Mat&, double&, double&, double, bool&)'
+[8.094s] collect2: error: ld returned 1 exit status
+[8.095s] gmake[2]: *** [CMakeFiles/myrobot_follow.dir/build.make:191：myrobot_follow] 错误 1
+[8.096s] gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/myrobot_follow.dir/all] 错误 2
+[8.096s] gmake: *** [Makefile:146：all] 错误 2
+[8.097s] Invoked command in '/home/dl/ignition_ws/build/my_ignition_demo' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/dl/ignition_ws/build/my_ignition_demo -- -j16 -l16

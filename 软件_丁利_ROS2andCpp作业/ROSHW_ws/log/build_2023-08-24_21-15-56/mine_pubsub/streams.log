@@ -1,0 +1,21 @@
+[0.016s] Invoking command in '/home/dl/ROSHW_ws/build/mine_pubsub': AMENT_PREFIX_PATH=/home/dl/ROSHW_ws/install/my_interfaces CMAKE_PREFIX_PATH=/home/dl/ROSHW_ws/install/my_interfaces LD_LIBRARY_PATH=/home/dl/ROSHW_ws/install/my_interfaces/lib PYTHONPATH=/home/dl/ROSHW_ws/install/my_interfaces/local/lib/python3.10/dist-packages /usr/bin/cmake /home/dl/ROSHW_ws/src/mine_pubsub -DCMAKE_INSTALL_PREFIX=/home/dl/ROSHW_ws/install/mine_pubsub
+[0.030s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.217s] Traceback (most recent call last):
+[0.217s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py", line 21, in <module>
+[0.217s]     from ament_package.templates import get_environment_hook_template_path
+[0.217s] ModuleNotFoundError: No module named 'ament_package'
+[0.226s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/ament_cmake_package_templates-extras.cmake:41 (message):
+[0.226s]   execute_process(/usr/bin/python3.10
+[0.226s]   /opt/ros/humble/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py
+[0.226s]   /home/dl/ROSHW_ws/build/mine_pubsub/ament_cmake_package_templates/templates.cmake)
+[0.226s]   returned error code 1
+[0.226s] Call Stack (most recent call first):
+[0.227s]   /opt/ros/humble/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)
+[0.227s]   /opt/ros/humble/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)
+[0.227s]   /opt/ros/humble/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+[0.227s]   CMakeLists.txt:9 (find_package)
+[0.227s] 
+[0.227s] [0m
+[0.227s] -- Configuring incomplete, errors occurred!
+[0.227s] See also "/home/dl/ROSHW_ws/build/mine_pubsub/CMakeFiles/CMakeOutput.log".
+[0.229s] Invoked command in '/home/dl/ROSHW_ws/build/mine_pubsub' returned '1': AMENT_PREFIX_PATH=/home/dl/ROSHW_ws/install/my_interfaces CMAKE_PREFIX_PATH=/home/dl/ROSHW_ws/install/my_interfaces LD_LIBRARY_PATH=/home/dl/ROSHW_ws/install/my_interfaces/lib PYTHONPATH=/home/dl/ROSHW_ws/install/my_interfaces/local/lib/python3.10/dist-packages /usr/bin/cmake /home/dl/ROSHW_ws/src/mine_pubsub -DCMAKE_INSTALL_PREFIX=/home/dl/ROSHW_ws/install/mine_pubsub

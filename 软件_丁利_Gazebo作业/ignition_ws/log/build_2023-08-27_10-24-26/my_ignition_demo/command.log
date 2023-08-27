@@ -1,0 +1,2 @@
+Invoking command in '/home/dl/ignition_ws/build/my_ignition_demo': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/dl/ignition_ws/build/my_ignition_demo -- -j16 -l16
+Invoked command in '/home/dl/ignition_ws/build/my_ignition_demo' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/dl/ignition_ws/build/my_ignition_demo -- -j16 -l16

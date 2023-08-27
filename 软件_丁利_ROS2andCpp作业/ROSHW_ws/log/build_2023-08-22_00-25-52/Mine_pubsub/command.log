@@ -1,0 +1,4 @@
+Invoking command in '/home/dl/ROSHW_ws/build/Mine_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/dl/ROSHW_ws/src/Mine_pubsub -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/dl/ROSHW_ws/install/Mine_pubsub
+Invoked command in '/home/dl/ROSHW_ws/build/Mine_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/dl/ROSHW_ws/src/Mine_pubsub -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/dl/ROSHW_ws/install/Mine_pubsub
+Invoking command in '/home/dl/ROSHW_ws/build/Mine_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/dl/ROSHW_ws/build/Mine_pubsub -- -j16 -l16
+Invoked command in '/home/dl/ROSHW_ws/build/Mine_pubsub' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/dl/ROSHW_ws/build/Mine_pubsub -- -j16 -l16

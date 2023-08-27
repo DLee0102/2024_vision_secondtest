@@ -1,0 +1,26 @@
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/dl/ROSHW_ws/src/Mine_pubsub/include/Mine_pubsub/subscriber_miner.hpp:7[m[K,
+                 from [01m[K/home/dl/ROSHW_ws/src/Mine_pubsub/src/subscriber_miner.cpp:1[m[K:
+[01m[K/home/dl/ROSHW_ws/src/Mine_pubsub/src/subscriber_miner.cpp:[m[K In member function ‘[01m[Kvoid Mine::MinerSubscriber::topic_callback(my_interfaces::msg::MineralArray) const[m[K’:
+[01m[K/home/dl/ROSHW_ws/src/Mine_pubsub/src/subscriber_miner.cpp:9:36:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kc_str[m[K’ in ‘[01m[Kmineral.my_interfaces::msg::Mineral_<std::allocator<void> >::position.geometry_msgs::msg::Point_<std::allocator<void> >::x[m[K’, which is of non-class type ‘[01m[Kconst _x_type[m[K’ {aka ‘[01m[Kconst double[m[K’}
+    9 |                 mineral.position.x.[01;31m[Kc_str[m[K(), mineral.position.y.c_str(), mineral.position.z.c_str());
+      |                                    [01;31m[K^~~~~[m[K
+[01m[K/home/dl/ROSHW_ws/src/Mine_pubsub/src/subscriber_miner.cpp:9:64:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kc_str[m[K’ in ‘[01m[Kmineral.my_interfaces::msg::Mineral_<std::allocator<void> >::position.geometry_msgs::msg::Point_<std::allocator<void> >::y[m[K’, which is of non-class type ‘[01m[Kconst _y_type[m[K’ {aka ‘[01m[Kconst double[m[K’}
+    9 |                 mineral.position.x.c_str(), mineral.position.y.[01;31m[Kc_str[m[K(), mineral.position.z.c_str());
+      |                                                                [01;31m[K^~~~~[m[K
+[01m[K/home/dl/ROSHW_ws/src/Mine_pubsub/src/subscriber_miner.cpp:9:92:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kc_str[m[K’ in ‘[01m[Kmineral.my_interfaces::msg::Mineral_<std::allocator<void> >::position.geometry_msgs::msg::Point_<std::allocator<void> >::z[m[K’, which is of non-class type ‘[01m[Kconst _z_type[m[K’ {aka ‘[01m[Kconst double[m[K’}
+    9 |                 mineral.position.x.c_str(), mineral.position.y.c_str(), mineral.position.z.[01;31m[Kc_str[m[K());
+      |                                                                                            [01;31m[K^~~~~[m[K
+gmake[2]: *** [CMakeFiles/miner.dir/build.make:76：CMakeFiles/miner.dir/src/subscriber_miner.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:165：CMakeFiles/miner.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

@@ -1,0 +1,3 @@
+[35m[1mConsolidate compiler generated dependencies of target miner[0m
+[ 50%] Built target oreyard
+[ 75%] [32mBuilding CXX object CMakeFiles/miner.dir/src/subscriber_miner.cpp.o[0m

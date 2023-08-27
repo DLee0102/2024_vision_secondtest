@@ -1,0 +1,30 @@
+[0.010s] Invoking command in '/home/dl/ignition_ws/build/my_ignition_demo': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/dl/ignition_ws/build/my_ignition_demo -- -j16 -l16
+[0.041s] [35m[1mConsolidate compiler generated dependencies of target myrobot_follow[0m
+[0.053s] [ 50%] [32mBuilding CXX object CMakeFiles/myrobot_follow.dir/src/myrobot_follow.cpp.o[0m
+[7.335s] [100%] [32m[1mLinking CXX executable myrobot_follow[0m
+[7.466s] /usr/bin/ld: warning: libopencv_imgproc.so.4.5d, needed by /opt/ros/humble/lib/libcv_bridge.so, may conflict with libopencv_imgproc.so.407
+[7.467s] /usr/bin/ld: warning: libopencv_core.so.4.5d, needed by /opt/ros/humble/lib/libcv_bridge.so, may conflict with libopencv_core.so.407
+[7.818s] [100%] Built target myrobot_follow
+[7.825s] Invoked command in '/home/dl/ignition_ws/build/my_ignition_demo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/dl/ignition_ws/build/my_ignition_demo -- -j16 -l16
+[7.848s] Invoking command in '/home/dl/ignition_ws/build/my_ignition_demo': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/dl/ignition_ws/build/my_ignition_demo
+[7.853s] -- Install configuration: ""
+[7.853s] -- Installing: /home/dl/ignition_ws/install/my_ignition_demo/lib/my_ignition_demo/myrobot_follow
+[7.856s] -- Set runtime path of "/home/dl/ignition_ws/install/my_ignition_demo/lib/my_ignition_demo/myrobot_follow" to ""
+[7.856s] -- Up-to-date: /home/dl/ignition_ws/install/my_ignition_demo/share/my_ignition_demo/launch
+[7.856s] -- Up-to-date: /home/dl/ignition_ws/install/my_ignition_demo/share/my_ignition_demo/launch/myrobot_follow.launch.py
+[7.856s] -- Up-to-date: /home/dl/ignition_ws/install/my_ignition_demo/share/ament_index/resource_index/package_run_dependencies/my_ignition_demo
+[7.856s] -- Up-to-date: /home/dl/ignition_ws/install/my_ignition_demo/share/ament_index/resource_index/parent_prefix_path/my_ignition_demo
+[7.856s] -- Up-to-date: /home/dl/ignition_ws/install/my_ignition_demo/share/my_ignition_demo/environment/ament_prefix_path.sh
+[7.856s] -- Up-to-date: /home/dl/ignition_ws/install/my_ignition_demo/share/my_ignition_demo/environment/ament_prefix_path.dsv
+[7.856s] -- Up-to-date: /home/dl/ignition_ws/install/my_ignition_demo/share/my_ignition_demo/environment/path.sh
+[7.856s] -- Up-to-date: /home/dl/ignition_ws/install/my_ignition_demo/share/my_ignition_demo/environment/path.dsv
+[7.856s] -- Up-to-date: /home/dl/ignition_ws/install/my_ignition_demo/share/my_ignition_demo/local_setup.bash
+[7.857s] -- Up-to-date: /home/dl/ignition_ws/install/my_ignition_demo/share/my_ignition_demo/local_setup.sh
+[7.857s] -- Up-to-date: /home/dl/ignition_ws/install/my_ignition_demo/share/my_ignition_demo/local_setup.zsh
+[7.857s] -- Up-to-date: /home/dl/ignition_ws/install/my_ignition_demo/share/my_ignition_demo/local_setup.dsv
+[7.857s] -- Installing: /home/dl/ignition_ws/install/my_ignition_demo/share/my_ignition_demo/package.dsv
+[7.857s] -- Up-to-date: /home/dl/ignition_ws/install/my_ignition_demo/share/ament_index/resource_index/packages/my_ignition_demo
+[7.857s] -- Up-to-date: /home/dl/ignition_ws/install/my_ignition_demo/share/my_ignition_demo/cmake/my_ignition_demoConfig.cmake
+[7.857s] -- Up-to-date: /home/dl/ignition_ws/install/my_ignition_demo/share/my_ignition_demo/cmake/my_ignition_demoConfig-version.cmake
+[7.857s] -- Up-to-date: /home/dl/ignition_ws/install/my_ignition_demo/share/my_ignition_demo/package.xml
+[7.858s] Invoked command in '/home/dl/ignition_ws/build/my_ignition_demo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/dl/ignition_ws/build/my_ignition_demo

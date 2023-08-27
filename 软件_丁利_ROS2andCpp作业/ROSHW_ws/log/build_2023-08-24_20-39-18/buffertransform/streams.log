@@ -1,0 +1,7 @@
+[0.010s] Invoking command in '/home/dl/ROSHW_ws/build/buffertransform': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/dl/ROSHW_ws/build/buffertransform -- -j16 -l16
+[0.064s] [35m[1mConsolidate compiler generated dependencies of target buffertransform[0m
+[0.079s] [ 50%] [32mBuilding CXX object CMakeFiles/buffertransform.dir/src/buffertransform.cpp.o[0m
+[1.164s] gmake[2]: *** [CMakeFiles/buffertransform.dir/build.make:76: CMakeFiles/buffertransform.dir/src/buffertransform.cpp.o] 中断
+[1.164s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/buffertransform.dir/all] 中断
+[1.164s] gmake: *** [Makefile:146: all] 中断
+[1.172s] Invoked command in '/home/dl/ROSHW_ws/build/buffertransform' returned '-2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/dl/ROSHW_ws/build/buffertransform -- -j16 -l16

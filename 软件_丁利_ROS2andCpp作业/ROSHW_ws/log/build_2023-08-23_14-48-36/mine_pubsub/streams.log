@@ -1,0 +1,30 @@
+[0.007s] Invoking command in '/home/dl/ROSHW_ws/build/mine_pubsub': AMENT_PREFIX_PATH=/home/dl/ROSHW_ws/install/my_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dl/ROSHW_ws/install/my_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/dl/ROSHW_ws/install/my_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/dl/ROSHW_ws/install/my_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/dl/ROSHW_ws/build/mine_pubsub -- -j16 -l16
+[0.038s] [35m[1mConsolidate compiler generated dependencies of target oreyard[0m
+[0.047s] [ 50%] Built target miner
+[0.050s] [ 75%] [32mBuilding CXX object CMakeFiles/oreyard.dir/src/publisher_oreyard.cpp.o[0m
+[3.774s] [100%] [32m[1mLinking CXX executable oreyard[0m
+[3.958s] [100%] Built target oreyard
+[3.966s] Invoked command in '/home/dl/ROSHW_ws/build/mine_pubsub' returned '0': AMENT_PREFIX_PATH=/home/dl/ROSHW_ws/install/my_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dl/ROSHW_ws/install/my_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/dl/ROSHW_ws/install/my_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/dl/ROSHW_ws/install/my_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/dl/ROSHW_ws/build/mine_pubsub -- -j16 -l16
+[3.988s] Invoking command in '/home/dl/ROSHW_ws/build/mine_pubsub': AMENT_PREFIX_PATH=/home/dl/ROSHW_ws/install/my_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dl/ROSHW_ws/install/my_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/dl/ROSHW_ws/install/my_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/dl/ROSHW_ws/install/my_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/dl/ROSHW_ws/build/mine_pubsub
+[3.994s] -- Install configuration: ""
+[3.995s] -- Execute custom install script
+[3.995s] -- Up-to-date symlink: /home/dl/ROSHW_ws/install/mine_pubsub/share/mine_pubsub/launch/mine_pubsub.launch.py
+[3.995s] -- Up-to-date symlink: /home/dl/ROSHW_ws/install/mine_pubsub/share/mine_pubsub/config/params.yaml
+[3.995s] -- Up-to-date symlink: /home/dl/ROSHW_ws/install/mine_pubsub/lib/mine_pubsub/oreyard
+[3.995s] -- Up-to-date symlink: /home/dl/ROSHW_ws/install/mine_pubsub/lib/mine_pubsub/miner
+[3.995s] -- Up-to-date symlink: /home/dl/ROSHW_ws/install/mine_pubsub/share/ament_index/resource_index/package_run_dependencies/mine_pubsub
+[3.995s] -- Up-to-date symlink: /home/dl/ROSHW_ws/install/mine_pubsub/share/ament_index/resource_index/parent_prefix_path/mine_pubsub
+[3.996s] -- Up-to-date symlink: /home/dl/ROSHW_ws/install/mine_pubsub/share/mine_pubsub/environment/ament_prefix_path.sh
+[3.996s] -- Up-to-date symlink: /home/dl/ROSHW_ws/install/mine_pubsub/share/mine_pubsub/environment/ament_prefix_path.dsv
+[3.996s] -- Up-to-date symlink: /home/dl/ROSHW_ws/install/mine_pubsub/share/mine_pubsub/environment/path.sh
+[3.996s] -- Up-to-date symlink: /home/dl/ROSHW_ws/install/mine_pubsub/share/mine_pubsub/environment/path.dsv
+[3.996s] -- Up-to-date symlink: /home/dl/ROSHW_ws/install/mine_pubsub/share/mine_pubsub/local_setup.bash
+[3.996s] -- Up-to-date symlink: /home/dl/ROSHW_ws/install/mine_pubsub/share/mine_pubsub/local_setup.sh
+[3.996s] -- Up-to-date symlink: /home/dl/ROSHW_ws/install/mine_pubsub/share/mine_pubsub/local_setup.zsh
+[3.996s] -- Up-to-date symlink: /home/dl/ROSHW_ws/install/mine_pubsub/share/mine_pubsub/local_setup.dsv
+[3.996s] -- Symlinking: /home/dl/ROSHW_ws/install/mine_pubsub/share/mine_pubsub/package.dsv
+[4.004s] -- Up-to-date symlink: /home/dl/ROSHW_ws/install/mine_pubsub/share/ament_index/resource_index/packages/mine_pubsub
+[4.004s] -- Up-to-date symlink: /home/dl/ROSHW_ws/install/mine_pubsub/share/mine_pubsub/cmake/mine_pubsubConfig.cmake
+[4.004s] -- Up-to-date symlink: /home/dl/ROSHW_ws/install/mine_pubsub/share/mine_pubsub/cmake/mine_pubsubConfig-version.cmake
+[4.005s] -- Up-to-date symlink: /home/dl/ROSHW_ws/install/mine_pubsub/share/mine_pubsub/package.xml
+[4.008s] Invoked command in '/home/dl/ROSHW_ws/build/mine_pubsub' returned '0': AMENT_PREFIX_PATH=/home/dl/ROSHW_ws/install/my_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dl/ROSHW_ws/install/my_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/dl/ROSHW_ws/install/my_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/dl/ROSHW_ws/install/my_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/dl/ROSHW_ws/build/mine_pubsub

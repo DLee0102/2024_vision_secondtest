@@ -1,0 +1,3 @@
+/myrobot_follow_node:
+  ros__parameters:
+    box_color: "green"

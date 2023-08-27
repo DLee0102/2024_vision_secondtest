@@ -1,0 +1,20 @@
+In file included from [01m[K/home/dl/ROSHW_ws/src/buffertransform/src/buffertransform.cpp:1[m[K:
+[01m[K/home/dl/ROSHW_ws/src/buffertransform/include/buffertransform/buffertransform.hpp:[m[K In constructor ‘[01m[KBuffertransform::Buffertransform(char**)[m[K’:
+[01m[K/home/dl/ROSHW_ws/src/buffertransform/include/buffertransform/buffertransform.hpp:21:36:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kchar*[m[K’ to ‘[01m[Kgeometry_msgs::msg::Point_<std::allocator<void> >::_x_type[m[K’ {aka ‘[01m[Kdouble[m[K’} in assignment
+   21 |         input_pos_.point.x = [01;31m[Kargv[1][m[K;
+      |                              [01;31m[K~~~~~~^[m[K
+      |                                    [01;31m[K|[m[K
+      |                                    [01;31m[Kchar*[m[K
+[01m[K/home/dl/ROSHW_ws/src/buffertransform/include/buffertransform/buffertransform.hpp:22:36:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kchar*[m[K’ to ‘[01m[Kgeometry_msgs::msg::Point_<std::allocator<void> >::_y_type[m[K’ {aka ‘[01m[Kdouble[m[K’} in assignment
+   22 |         input_pos_.point.y = [01;31m[Kargv[2][m[K;
+      |                              [01;31m[K~~~~~~^[m[K
+      |                                    [01;31m[K|[m[K
+      |                                    [01;31m[Kchar*[m[K
+[01m[K/home/dl/ROSHW_ws/src/buffertransform/include/buffertransform/buffertransform.hpp:23:36:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kchar*[m[K’ to ‘[01m[Kgeometry_msgs::msg::Point_<std::allocator<void> >::_z_type[m[K’ {aka ‘[01m[Kdouble[m[K’} in assignment
+   23 |         input_pos_.point.z = [01;31m[Kargv[3][m[K;
+      |                              [01;31m[K~~~~~~^[m[K
+      |                                    [01;31m[K|[m[K
+      |                                    [01;31m[Kchar*[m[K
+gmake[2]: *** [CMakeFiles/buffertransform.dir/build.make:76：CMakeFiles/buffertransform.dir/src/buffertransform.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/buffertransform.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

@@ -1,0 +1,46 @@
+[0.009s] Invoking command in '/home/dl/ROSHW_ws/build/mine_pubsub': AMENT_PREFIX_PATH=/home/dl/ROSHW_ws/install/my_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dl/ROSHW_ws/install/my_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/dl/ROSHW_ws/install/my_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/dl/ROSHW_ws/install/my_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/dl/ROSHW_ws/build/mine_pubsub -- -j16 -l16
+[0.041s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.153s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.167s] -- Found rclcpp: 16.0.5 (/opt/ros/humble/share/rclcpp/cmake)
+[0.200s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.202s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.209s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.220s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.234s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.285s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.286s] -- Found rmw_fastrtps_cpp: 6.2.3 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.392s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.521s] -- Found my_interfaces: 0.0.0 (/home/dl/ROSHW_ws/install/my_interfaces/share/my_interfaces/cmake)
+[0.699s] -- Configuring done
+[0.709s] -- Generating done
+[0.710s] -- Build files have been written to: /home/dl/ROSHW_ws/build/mine_pubsub
+[0.738s] [35m[1mConsolidate compiler generated dependencies of target miner[0m
+[0.738s] [35m[1mConsolidate compiler generated dependencies of target oreyard[0m
+[0.751s] [ 50%] [32mBuilding CXX object CMakeFiles/miner.dir/src/subscriber_miner.cpp.o[0m
+[0.751s] [ 75%] Built target oreyard
+[7.268s] [100%] [32m[1mLinking CXX executable miner[0m
+[7.573s] [100%] Built target miner
+[7.582s] Invoked command in '/home/dl/ROSHW_ws/build/mine_pubsub' returned '0': AMENT_PREFIX_PATH=/home/dl/ROSHW_ws/install/my_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dl/ROSHW_ws/install/my_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/dl/ROSHW_ws/install/my_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/dl/ROSHW_ws/install/my_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/dl/ROSHW_ws/build/mine_pubsub -- -j16 -l16
+[7.607s] Invoking command in '/home/dl/ROSHW_ws/build/mine_pubsub': AMENT_PREFIX_PATH=/home/dl/ROSHW_ws/install/my_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dl/ROSHW_ws/install/my_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/dl/ROSHW_ws/install/my_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/dl/ROSHW_ws/install/my_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/dl/ROSHW_ws/build/mine_pubsub
+[7.612s] -- Install configuration: ""
+[7.612s] -- Execute custom install script
+[7.613s] -- Up-to-date symlink: /home/dl/ROSHW_ws/install/mine_pubsub/share/mine_pubsub/launch/mine_pubsub.launch.py
+[7.613s] -- Up-to-date symlink: /home/dl/ROSHW_ws/install/mine_pubsub/share/mine_pubsub/config/params.yaml
+[7.613s] -- Up-to-date symlink: /home/dl/ROSHW_ws/install/mine_pubsub/lib/mine_pubsub/oreyard
+[7.613s] -- Up-to-date symlink: /home/dl/ROSHW_ws/install/mine_pubsub/lib/mine_pubsub/miner
+[7.613s] -- Up-to-date symlink: /home/dl/ROSHW_ws/install/mine_pubsub/share/ament_index/resource_index/package_run_dependencies/mine_pubsub
+[7.613s] -- Up-to-date symlink: /home/dl/ROSHW_ws/install/mine_pubsub/share/ament_index/resource_index/parent_prefix_path/mine_pubsub
+[7.613s] -- Up-to-date symlink: /home/dl/ROSHW_ws/install/mine_pubsub/share/mine_pubsub/environment/ament_prefix_path.sh
+[7.614s] -- Up-to-date symlink: /home/dl/ROSHW_ws/install/mine_pubsub/share/mine_pubsub/environment/ament_prefix_path.dsv
+[7.614s] -- Up-to-date symlink: /home/dl/ROSHW_ws/install/mine_pubsub/share/mine_pubsub/environment/path.sh
+[7.614s] -- Up-to-date symlink: /home/dl/ROSHW_ws/install/mine_pubsub/share/mine_pubsub/environment/path.dsv
+[7.614s] -- Up-to-date symlink: /home/dl/ROSHW_ws/install/mine_pubsub/share/mine_pubsub/local_setup.bash
+[7.614s] -- Up-to-date symlink: /home/dl/ROSHW_ws/install/mine_pubsub/share/mine_pubsub/local_setup.sh
+[7.614s] -- Up-to-date symlink: /home/dl/ROSHW_ws/install/mine_pubsub/share/mine_pubsub/local_setup.zsh
+[7.614s] -- Up-to-date symlink: /home/dl/ROSHW_ws/install/mine_pubsub/share/mine_pubsub/local_setup.dsv
+[7.614s] -- Symlinking: /home/dl/ROSHW_ws/install/mine_pubsub/share/mine_pubsub/package.dsv
+[7.623s] -- Up-to-date symlink: /home/dl/ROSHW_ws/install/mine_pubsub/share/ament_index/resource_index/packages/mine_pubsub
+[7.623s] -- Up-to-date symlink: /home/dl/ROSHW_ws/install/mine_pubsub/share/mine_pubsub/cmake/mine_pubsubConfig.cmake
+[7.624s] -- Up-to-date symlink: /home/dl/ROSHW_ws/install/mine_pubsub/share/mine_pubsub/cmake/mine_pubsubConfig-version.cmake
+[7.624s] -- Up-to-date symlink: /home/dl/ROSHW_ws/install/mine_pubsub/share/mine_pubsub/package.xml
+[7.625s] Invoked command in '/home/dl/ROSHW_ws/build/mine_pubsub' returned '0': AMENT_PREFIX_PATH=/home/dl/ROSHW_ws/install/my_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dl/ROSHW_ws/install/my_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/dl/ROSHW_ws/install/my_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/dl/ROSHW_ws/install/my_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/dl/ROSHW_ws/build/mine_pubsub

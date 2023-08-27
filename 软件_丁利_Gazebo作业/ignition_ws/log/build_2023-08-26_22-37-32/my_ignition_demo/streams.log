@@ -1,0 +1,62 @@
+[0.013s] Invoking command in '/home/dl/ignition_ws/build/my_ignition_demo': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/dl/ignition_ws/src/my_ignition_demo -DCMAKE_INSTALL_PREFIX=/home/dl/ignition_ws/install/my_ignition_demo
+[0.135s] -- The C compiler identification is GNU 11.4.0
+[0.218s] -- The CXX compiler identification is GNU 11.4.0
+[0.227s] -- Detecting C compiler ABI info
+[0.275s] -- Detecting C compiler ABI info - done
+[0.281s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.282s] -- Detecting C compile features
+[0.282s] -- Detecting C compile features - done
+[0.285s] -- Detecting CXX compiler ABI info
+[0.338s] -- Detecting CXX compiler ABI info - done
+[0.345s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.345s] -- Detecting CXX compile features
+[0.345s] -- Detecting CXX compile features - done
+[0.349s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.468s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.552s] -- Found rclcpp: 16.0.5 (/opt/ros/humble/share/rclcpp/cmake)
+[0.598s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.601s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.610s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.624s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.641s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.699s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.702s] -- Found rmw_fastrtps_cpp: 6.2.3 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.779s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.800s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.838s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.851s] -- Looking for pthread.h
+[0.908s] -- Looking for pthread.h - found
+[0.908s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.956s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.957s] -- Found Threads: TRUE  
+[1.085s] -- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+[1.122s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.185s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[1.195s] -- Found OpenCV: /usr/local (found version "4.7.0") 
+[1.196s] -- Found ament_lint_auto: 0.12.7 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.256s] -- Added test 'lint_cmake' to check CMake code style
+[1.257s] -- Added test 'xmllint' to check XML markup files
+[1.258s] -- Configuring done
+[1.262s] -- Generating done
+[1.263s] -- Build files have been written to: /home/dl/ignition_ws/build/my_ignition_demo
+[1.271s] Invoked command in '/home/dl/ignition_ws/build/my_ignition_demo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/dl/ignition_ws/src/my_ignition_demo -DCMAKE_INSTALL_PREFIX=/home/dl/ignition_ws/install/my_ignition_demo
+[1.272s] Invoking command in '/home/dl/ignition_ws/build/my_ignition_demo': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/dl/ignition_ws/build/my_ignition_demo -- -j16 -l16
+[1.297s] Invoked command in '/home/dl/ignition_ws/build/my_ignition_demo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/dl/ignition_ws/build/my_ignition_demo -- -j16 -l16
+[1.319s] Invoking command in '/home/dl/ignition_ws/build/my_ignition_demo': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/dl/ignition_ws/build/my_ignition_demo
+[1.324s] -- Install configuration: ""
+[1.324s] -- Installing: /home/dl/ignition_ws/install/my_ignition_demo/share/ament_index/resource_index/package_run_dependencies/my_ignition_demo
+[1.324s] -- Installing: /home/dl/ignition_ws/install/my_ignition_demo/share/ament_index/resource_index/parent_prefix_path/my_ignition_demo
+[1.324s] -- Installing: /home/dl/ignition_ws/install/my_ignition_demo/share/my_ignition_demo/environment/ament_prefix_path.sh
+[1.324s] -- Installing: /home/dl/ignition_ws/install/my_ignition_demo/share/my_ignition_demo/environment/ament_prefix_path.dsv
+[1.324s] -- Installing: /home/dl/ignition_ws/install/my_ignition_demo/share/my_ignition_demo/environment/path.sh
+[1.324s] -- Installing: /home/dl/ignition_ws/install/my_ignition_demo/share/my_ignition_demo/environment/path.dsv
+[1.324s] -- Installing: /home/dl/ignition_ws/install/my_ignition_demo/share/my_ignition_demo/local_setup.bash
+[1.324s] -- Installing: /home/dl/ignition_ws/install/my_ignition_demo/share/my_ignition_demo/local_setup.sh
+[1.324s] -- Installing: /home/dl/ignition_ws/install/my_ignition_demo/share/my_ignition_demo/local_setup.zsh
+[1.325s] -- Installing: /home/dl/ignition_ws/install/my_ignition_demo/share/my_ignition_demo/local_setup.dsv
+[1.325s] -- Installing: /home/dl/ignition_ws/install/my_ignition_demo/share/my_ignition_demo/package.dsv
+[1.325s] -- Installing: /home/dl/ignition_ws/install/my_ignition_demo/share/ament_index/resource_index/packages/my_ignition_demo
+[1.325s] -- Installing: /home/dl/ignition_ws/install/my_ignition_demo/share/my_ignition_demo/cmake/my_ignition_demoConfig.cmake
+[1.325s] -- Installing: /home/dl/ignition_ws/install/my_ignition_demo/share/my_ignition_demo/cmake/my_ignition_demoConfig-version.cmake
+[1.325s] -- Installing: /home/dl/ignition_ws/install/my_ignition_demo/share/my_ignition_demo/package.xml
+[1.326s] Invoked command in '/home/dl/ignition_ws/build/my_ignition_demo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/dl/ignition_ws/build/my_ignition_demo

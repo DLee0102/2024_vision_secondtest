@@ -1,0 +1,8 @@
+In file included from [01m[K/home/dl/ROSHW_ws/src/learning_tf2_cpp/src/hero_tf2_listener.cpp:1[m[K:
+[01m[K/home/dl/ROSHW_ws/src/learning_tf2_cpp/include/learning_tf2_cpp/hero_tf2_listener.hpp:12:10:[m[K [01;31m[Kfatal error: [m[Kturtlesim/srv/spawn.hpp: 没有那个文件或目录
+   12 | #include [01;31m[K"turtlesim/srv/spawn.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/hero_tf2_listener.dir/build.make:76：CMakeFiles/hero_tf2_listener.dir/src/hero_tf2_listener.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/hero_tf2_listener.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

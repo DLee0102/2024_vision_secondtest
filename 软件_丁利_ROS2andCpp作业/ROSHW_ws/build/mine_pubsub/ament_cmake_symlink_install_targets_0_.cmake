@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/dl/ROSHW_ws/build/mine_pubsub/oreyard" "/home/dl/ROSHW_ws/build/mine_pubsub/miner" "TARGETS" "oreyard" "miner" "DESTINATION" "lib/mine_pubsub")

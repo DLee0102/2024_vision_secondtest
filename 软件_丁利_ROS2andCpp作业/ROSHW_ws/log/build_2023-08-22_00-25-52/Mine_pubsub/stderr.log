@@ -1,0 +1,9 @@
+WARNING: Package name "Mine_pubsub" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.
+[01m[K/home/dl/ROSHW_ws/src/Mine_pubsub/src/subscriber_miner.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Ksubscriber_miner.hpp: 没有那个文件或目录
+    1 | #include [01;31m[K"subscriber_miner.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/miner.dir/build.make:76：CMakeFiles/miner.dir/src/subscriber_miner.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:165：CMakeFiles/miner.dir/all] 错误 2
+gmake[1]: *** 正在等待未完成的任务....
+gmake: *** [Makefile:146：all] 错误 2

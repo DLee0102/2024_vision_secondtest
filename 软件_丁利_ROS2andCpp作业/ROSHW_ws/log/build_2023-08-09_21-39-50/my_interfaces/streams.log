@@ -1,0 +1,222 @@
+[0.010s] Invoking command in '/home/dl/ROSHW_ws/build/my_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/dl/ROSHW_ws/src/my_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/dl/ROSHW_ws/install/my_interfaces
+[0.046s] -- The C compiler identification is GNU 11.4.0
+[0.082s] -- The CXX compiler identification is GNU 11.4.0
+[0.087s] -- Detecting C compiler ABI info
+[0.134s] -- Detecting C compiler ABI info - done
+[0.140s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.140s] -- Detecting C compile features
+[0.140s] -- Detecting C compile features - done
+[0.142s] -- Detecting CXX compiler ABI info
+[0.194s] -- Detecting CXX compiler ABI info - done
+[0.199s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.200s] -- Detecting CXX compile features
+[0.200s] -- Detecting CXX compile features - done
+[0.202s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.316s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.358s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.376s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.378s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.382s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.412s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.437s] -- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.732s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.911s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.141s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.158s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[1.159s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.179s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[1.179s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.179s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.179s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.193s] -- Found PythonExtra: .so  
+[1.246s] -- Configuring done
+[1.268s] -- Generating done
+[1.270s] -- Build files have been written to: /home/dl/ROSHW_ws/build/my_interfaces
+[1.277s] Invoked command in '/home/dl/ROSHW_ws/build/my_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/dl/ROSHW_ws/src/my_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/dl/ROSHW_ws/install/my_interfaces
+[1.279s] Invoking command in '/home/dl/ROSHW_ws/build/my_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/dl/ROSHW_ws/build/my_interfaces -- -j16 -l16
+[1.306s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.314s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.320s] [  5%] Built target ament_cmake_python_symlink_my_interfaces
+[1.532s] running egg_info
+[1.532s] creating my_interfaces.egg-info
+[1.532s] writing my_interfaces.egg-info/PKG-INFO
+[1.532s] writing dependency_links to my_interfaces.egg-info/dependency_links.txt
+[1.532s] writing top-level names to my_interfaces.egg-info/top_level.txt
+[1.534s] writing manifest file 'my_interfaces.egg-info/SOURCES.txt'
+[1.538s] [  7%] [32mBuilding C object CMakeFiles/my_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_interfaces/msg/detail/mineral__functions.c.o[0m
+[1.538s] [ 10%] [32mBuilding C object CMakeFiles/my_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_interfaces/msg/detail/mineral_array__functions.c.o[0m
+[1.539s] reading manifest file 'my_interfaces.egg-info/SOURCES.txt'
+[1.539s] writing manifest file 'my_interfaces.egg-info/SOURCES.txt'
+[1.547s] [ 10%] Built target my_interfaces__cpp
+[1.554s] [ 15%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[1.554s] [ 15%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[1.555s] [ 17%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[1.564s] [ 17%] Built target ament_cmake_python_build_my_interfaces_egg
+[1.584s] [ 20%] [32m[1mLinking C shared library libmy_interfaces__rosidl_generator_c.so[0m
+[1.613s] [ 20%] Built target my_interfaces__rosidl_generator_c
+[1.621s] [ 28%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[1.621s] [ 28%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[1.621s] [ 28%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[1.754s] [ 33%] [32mBuilding CXX object CMakeFiles/my_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_interfaces/msg/mineral__type_support.cpp.o[0m
+[1.754s] [ 33%] [32mBuilding CXX object CMakeFiles/my_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_interfaces/msg/mineral_array__type_support.cpp.o[0m
+[1.773s] [ 35%] [32mBuilding CXX object CMakeFiles/my_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_interfaces/msg/detail/mineral__type_support.cpp.o[0m
+[1.775s] [ 38%] [32mBuilding CXX object CMakeFiles/my_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_interfaces/msg/detail/mineral_array__type_support.cpp.o[0m
+[1.788s] [ 41%] [32mBuilding CXX object CMakeFiles/my_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_interfaces/msg/detail/dds_fastrtps/mineral__type_support.cpp.o[0m
+[1.790s] [ 43%] [32mBuilding CXX object CMakeFiles/my_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_interfaces/msg/detail/dds_fastrtps/mineral_array__type_support.cpp.o[0m
+[1.836s] [ 48%] [32mBuilding CXX object CMakeFiles/my_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_interfaces/msg/mineral__type_support.cpp.o[0m
+[1.836s] [ 48%] [32mBuilding CXX object CMakeFiles/my_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_interfaces/msg/mineral_array__type_support.cpp.o[0m
+[1.867s] [ 51%] [32m[1mLinking CXX shared library libmy_interfaces__rosidl_typesupport_c.so[0m
+[1.869s] [ 53%] [32mBuilding C object CMakeFiles/my_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_interfaces/msg/detail/mineral__type_support.c.o[0m
+[1.871s] [ 56%] [32mBuilding C object CMakeFiles/my_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_interfaces/msg/detail/mineral_array__type_support.c.o[0m
+[1.879s] [ 58%] [32mBuilding CXX object CMakeFiles/my_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_interfaces/msg/detail/mineral__type_support_c.cpp.o[0m
+[1.880s] [ 61%] [32mBuilding CXX object CMakeFiles/my_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_interfaces/msg/detail/mineral_array__type_support_c.cpp.o[0m
+[1.903s] [ 64%] [32m[1mLinking C shared library libmy_interfaces__rosidl_typesupport_introspection_c.so[0m
+[1.922s] [ 64%] Built target my_interfaces__rosidl_typesupport_c
+[1.934s] [ 64%] Built target my_interfaces__rosidl_typesupport_introspection_c
+[1.998s] [ 66%] [32m[1mLinking CXX shared library libmy_interfaces__rosidl_typesupport_cpp.so[0m
+[2.032s] [ 66%] Built target my_interfaces__rosidl_typesupport_cpp
+[2.177s] [ 69%] [32m[1mLinking CXX shared library libmy_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[2.219s] [ 71%] [32m[1mLinking CXX shared library libmy_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[2.240s] [ 71%] Built target my_interfaces__rosidl_typesupport_fastrtps_c
+[2.249s] [ 74%] [32m[1mLinking CXX shared library libmy_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[2.274s] [ 74%] Built target my_interfaces__rosidl_typesupport_introspection_cpp
+[2.301s] [ 74%] Built target my_interfaces__rosidl_typesupport_fastrtps_cpp
+[2.314s] [ 74%] Built target my_interfaces
+[2.329s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[2.593s] [ 76%] Built target my_interfaces__py
+[2.606s] [ 82%] [32mBuilding C object CMakeFiles/my_interfaces__rosidl_generator_py.dir/rosidl_generator_py/my_interfaces/msg/_mineral_s.c.o[0m
+[2.606s] [ 82%] [32mBuilding C object CMakeFiles/my_interfaces__rosidl_generator_py.dir/rosidl_generator_py/my_interfaces/msg/_mineral_array_s.c.o[0m
+[2.676s] [ 84%] [32m[1mLinking C shared library rosidl_generator_py/my_interfaces/libmy_interfaces__rosidl_generator_py.so[0m
+[2.705s] [ 84%] Built target my_interfaces__rosidl_generator_py
+[2.720s] [ 92%] [32mBuilding C object CMakeFiles/my_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/my_interfaces/_my_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[2.720s] [ 92%] [32mBuilding C object CMakeFiles/my_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/my_interfaces/_my_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[2.720s] [ 92%] [32mBuilding C object CMakeFiles/my_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/my_interfaces/_my_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[2.786s] [100%] [32m[1mLinking C shared library rosidl_generator_py/my_interfaces/my_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.787s] [100%] [32m[1mLinking C shared library rosidl_generator_py/my_interfaces/my_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.787s] [100%] [32m[1mLinking C shared library rosidl_generator_py/my_interfaces/my_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.816s] [100%] Built target my_interfaces__rosidl_typesupport_c__pyext
+[2.816s] [100%] Built target my_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[2.816s] [100%] Built target my_interfaces__rosidl_typesupport_introspection_c__pyext
+[2.824s] Invoked command in '/home/dl/ROSHW_ws/build/my_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/dl/ROSHW_ws/build/my_interfaces -- -j16 -l16
+[2.873s] Invoking command in '/home/dl/ROSHW_ws/build/my_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/dl/ROSHW_ws/build/my_interfaces
+[2.878s] -- Install configuration: ""
+[2.879s] -- Execute custom install script
+[2.879s] -- Symlinking: /home/dl/ROSHW_ws/install/my_interfaces/share/ament_index/resource_index/rosidl_interfaces/my_interfaces
+[2.885s] -- Symlinking: /home/dl/ROSHW_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/mineral__functions.h
+[2.890s] -- Symlinking: /home/dl/ROSHW_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/mineral__struct.h
+[2.895s] -- Symlinking: /home/dl/ROSHW_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/mineral__type_support.h
+[2.900s] -- Symlinking: /home/dl/ROSHW_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/mineral_array__functions.h
+[2.905s] -- Symlinking: /home/dl/ROSHW_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/mineral_array__struct.h
+[2.911s] -- Symlinking: /home/dl/ROSHW_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/mineral_array__type_support.h
+[2.917s] -- Symlinking: /home/dl/ROSHW_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/mineral.h
+[2.923s] -- Symlinking: /home/dl/ROSHW_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/mineral_array.h
+[2.928s] -- Symlinking: /home/dl/ROSHW_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/rosidl_generator_c__visibility_control.h
+[2.933s] -- Symlinking: /home/dl/ROSHW_ws/install/my_interfaces/share/my_interfaces/environment/library_path.sh
+[2.938s] -- Symlinking: /home/dl/ROSHW_ws/install/my_interfaces/share/my_interfaces/environment/library_path.dsv
+[2.943s] -- Symlinking: /home/dl/ROSHW_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/mineral__rosidl_typesupport_fastrtps_c.h
+[2.948s] -- Symlinking: /home/dl/ROSHW_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/mineral_array__rosidl_typesupport_fastrtps_c.h
+[2.953s] -- Symlinking: /home/dl/ROSHW_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[2.958s] -- Symlinking: /home/dl/ROSHW_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/mineral__rosidl_typesupport_introspection_c.h
+[2.964s] -- Symlinking: /home/dl/ROSHW_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/mineral_array__rosidl_typesupport_introspection_c.h
+[2.969s] -- Symlinking: /home/dl/ROSHW_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[2.974s] -- Symlinking: /home/dl/ROSHW_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/mineral__builder.hpp
+[2.979s] -- Symlinking: /home/dl/ROSHW_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/mineral__struct.hpp
+[2.984s] -- Symlinking: /home/dl/ROSHW_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/mineral__traits.hpp
+[2.988s] -- Symlinking: /home/dl/ROSHW_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/mineral_array__builder.hpp
+[2.995s] -- Symlinking: /home/dl/ROSHW_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/mineral_array__struct.hpp
+[3.000s] -- Symlinking: /home/dl/ROSHW_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/mineral_array__traits.hpp
+[3.005s] -- Symlinking: /home/dl/ROSHW_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/mineral.hpp
+[3.011s] -- Symlinking: /home/dl/ROSHW_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/mineral_array.hpp
+[3.018s] -- Symlinking: /home/dl/ROSHW_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/mineral__rosidl_typesupport_fastrtps_cpp.hpp
+[3.024s] -- Symlinking: /home/dl/ROSHW_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/mineral_array__rosidl_typesupport_fastrtps_cpp.hpp
+[3.030s] -- Symlinking: /home/dl/ROSHW_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[3.035s] -- Symlinking: /home/dl/ROSHW_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/mineral__rosidl_typesupport_introspection_cpp.hpp
+[3.040s] -- Symlinking: /home/dl/ROSHW_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/mineral_array__rosidl_typesupport_introspection_cpp.hpp
+[3.045s] -- Symlinking: /home/dl/ROSHW_ws/install/my_interfaces/share/my_interfaces/environment/pythonpath.sh
+[3.050s] -- Symlinking: /home/dl/ROSHW_ws/install/my_interfaces/share/my_interfaces/environment/pythonpath.dsv
+[3.056s] -- Symlinking: /home/dl/ROSHW_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[3.061s] -- Symlinking: /home/dl/ROSHW_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[3.066s] -- Symlinking: /home/dl/ROSHW_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[3.071s] -- Symlinking: /home/dl/ROSHW_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[3.077s] -- Symlinking: /home/dl/ROSHW_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/__init__.py
+[3.081s] -- Symlinking: /home/dl/ROSHW_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/_my_interfaces_s.ep.rosidl_typesupport_c.c
+[3.086s] -- Symlinking: /home/dl/ROSHW_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/_my_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[3.091s] -- Symlinking: /home/dl/ROSHW_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/_my_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[3.096s] -- Symlinking: /home/dl/ROSHW_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/libmy_interfaces__rosidl_generator_py.so
+[3.101s] -- Symlinking: /home/dl/ROSHW_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/msg/__init__.py
+[3.106s] -- Symlinking: /home/dl/ROSHW_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/msg/_mineral.py
+[3.112s] -- Symlinking: /home/dl/ROSHW_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/msg/_mineral_array.py
+[3.119s] -- Symlinking: /home/dl/ROSHW_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/msg/_mineral_array_s.c
+[3.125s] -- Symlinking: /home/dl/ROSHW_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/msg/_mineral_s.c
+[3.130s] -- Symlinking: /home/dl/ROSHW_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/my_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[3.135s] -- Symlinking: /home/dl/ROSHW_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/my_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[3.140s] -- Symlinking: /home/dl/ROSHW_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/my_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[3.145s] -- Up-to-date symlink: /home/dl/ROSHW_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/my_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[3.145s] -- Up-to-date symlink: /home/dl/ROSHW_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/my_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[3.146s] -- Up-to-date symlink: /home/dl/ROSHW_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/my_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[3.146s] -- Symlinking: /home/dl/ROSHW_ws/install/my_interfaces/share/my_interfaces/msg/Mineral.idl
+[3.151s] -- Symlinking: /home/dl/ROSHW_ws/install/my_interfaces/share/my_interfaces/msg/MineralArray.idl
+[3.156s] -- Symlinking: /home/dl/ROSHW_ws/install/my_interfaces/share/my_interfaces/msg/Mineral.msg
+[3.161s] -- Symlinking: /home/dl/ROSHW_ws/install/my_interfaces/share/my_interfaces/msg/MineralArray.msg
+[3.166s] -- Symlinking: /home/dl/ROSHW_ws/install/my_interfaces/share/ament_index/resource_index/package_run_dependencies/my_interfaces
+[3.171s] -- Symlinking: /home/dl/ROSHW_ws/install/my_interfaces/share/ament_index/resource_index/parent_prefix_path/my_interfaces
+[3.176s] -- Symlinking: /home/dl/ROSHW_ws/install/my_interfaces/share/my_interfaces/environment/ament_prefix_path.sh
+[3.181s] -- Symlinking: /home/dl/ROSHW_ws/install/my_interfaces/share/my_interfaces/environment/ament_prefix_path.dsv
+[3.186s] -- Symlinking: /home/dl/ROSHW_ws/install/my_interfaces/share/my_interfaces/environment/path.sh
+[3.191s] -- Symlinking: /home/dl/ROSHW_ws/install/my_interfaces/share/my_interfaces/environment/path.dsv
+[3.196s] -- Symlinking: /home/dl/ROSHW_ws/install/my_interfaces/share/my_interfaces/local_setup.bash
+[3.202s] -- Symlinking: /home/dl/ROSHW_ws/install/my_interfaces/share/my_interfaces/local_setup.sh
+[3.207s] -- Symlinking: /home/dl/ROSHW_ws/install/my_interfaces/share/my_interfaces/local_setup.zsh
+[3.214s] -- Symlinking: /home/dl/ROSHW_ws/install/my_interfaces/share/my_interfaces/local_setup.dsv
+[3.220s] -- Symlinking: /home/dl/ROSHW_ws/install/my_interfaces/share/my_interfaces/package.dsv
+[3.225s] -- Symlinking: /home/dl/ROSHW_ws/install/my_interfaces/share/ament_index/resource_index/packages/my_interfaces
+[3.231s] -- Symlinking: /home/dl/ROSHW_ws/install/my_interfaces/share/my_interfaces/cmake/rosidl_cmake-extras.cmake
+[3.236s] -- Symlinking: /home/dl/ROSHW_ws/install/my_interfaces/share/my_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.241s] -- Symlinking: /home/dl/ROSHW_ws/install/my_interfaces/share/my_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.246s] -- Symlinking: /home/dl/ROSHW_ws/install/my_interfaces/share/my_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[3.251s] -- Symlinking: /home/dl/ROSHW_ws/install/my_interfaces/share/my_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[3.257s] -- Symlinking: /home/dl/ROSHW_ws/install/my_interfaces/share/my_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[3.262s] -- Symlinking: /home/dl/ROSHW_ws/install/my_interfaces/share/my_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[3.267s] -- Symlinking: /home/dl/ROSHW_ws/install/my_interfaces/share/my_interfaces/cmake/my_interfacesConfig.cmake
+[3.272s] -- Symlinking: /home/dl/ROSHW_ws/install/my_interfaces/share/my_interfaces/cmake/my_interfacesConfig-version.cmake
+[3.277s] -- Symlinking: /home/dl/ROSHW_ws/install/my_interfaces/share/my_interfaces/package.xml
+[3.283s] -- Installing: /home/dl/ROSHW_ws/install/my_interfaces/lib/libmy_interfaces__rosidl_generator_c.so
+[3.283s] -- Set runtime path of "/home/dl/ROSHW_ws/install/my_interfaces/lib/libmy_interfaces__rosidl_generator_c.so" to ""
+[3.283s] -- Installing: /home/dl/ROSHW_ws/install/my_interfaces/lib/libmy_interfaces__rosidl_typesupport_fastrtps_c.so
+[3.283s] -- Set runtime path of "/home/dl/ROSHW_ws/install/my_interfaces/lib/libmy_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[3.283s] -- Installing: /home/dl/ROSHW_ws/install/my_interfaces/lib/libmy_interfaces__rosidl_typesupport_introspection_c.so
+[3.283s] -- Set runtime path of "/home/dl/ROSHW_ws/install/my_interfaces/lib/libmy_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[3.283s] -- Installing: /home/dl/ROSHW_ws/install/my_interfaces/lib/libmy_interfaces__rosidl_typesupport_c.so
+[3.283s] -- Set runtime path of "/home/dl/ROSHW_ws/install/my_interfaces/lib/libmy_interfaces__rosidl_typesupport_c.so" to ""
+[3.283s] -- Installing: /home/dl/ROSHW_ws/install/my_interfaces/lib/libmy_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[3.284s] -- Set runtime path of "/home/dl/ROSHW_ws/install/my_interfaces/lib/libmy_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[3.284s] -- Installing: /home/dl/ROSHW_ws/install/my_interfaces/lib/libmy_interfaces__rosidl_typesupport_introspection_cpp.so
+[3.284s] -- Set runtime path of "/home/dl/ROSHW_ws/install/my_interfaces/lib/libmy_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[3.284s] -- Installing: /home/dl/ROSHW_ws/install/my_interfaces/lib/libmy_interfaces__rosidl_typesupport_cpp.so
+[3.284s] -- Set runtime path of "/home/dl/ROSHW_ws/install/my_interfaces/lib/libmy_interfaces__rosidl_typesupport_cpp.so" to ""
+[3.313s] Listing '/home/dl/ROSHW_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces'...
+[3.313s] Compiling '/home/dl/ROSHW_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/__init__.py'...
+[3.313s] Listing '/home/dl/ROSHW_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/msg'...
+[3.313s] Compiling '/home/dl/ROSHW_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/msg/__init__.py'...
+[3.313s] Compiling '/home/dl/ROSHW_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/msg/_mineral.py'...
+[3.313s] Compiling '/home/dl/ROSHW_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/msg/_mineral_array.py'...
+[3.317s] -- Installing: /home/dl/ROSHW_ws/install/my_interfaces/lib/libmy_interfaces__rosidl_generator_py.so
+[3.317s] -- Set runtime path of "/home/dl/ROSHW_ws/install/my_interfaces/lib/libmy_interfaces__rosidl_generator_py.so" to ""
+[3.317s] -- Installing: /home/dl/ROSHW_ws/install/my_interfaces/share/my_interfaces/cmake/export_my_interfaces__rosidl_generator_cExport.cmake
+[3.317s] -- Installing: /home/dl/ROSHW_ws/install/my_interfaces/share/my_interfaces/cmake/export_my_interfaces__rosidl_generator_cExport-noconfig.cmake
+[3.317s] -- Installing: /home/dl/ROSHW_ws/install/my_interfaces/share/my_interfaces/cmake/export_my_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[3.317s] -- Installing: /home/dl/ROSHW_ws/install/my_interfaces/share/my_interfaces/cmake/export_my_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[3.317s] -- Installing: /home/dl/ROSHW_ws/install/my_interfaces/share/my_interfaces/cmake/my_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[3.317s] -- Installing: /home/dl/ROSHW_ws/install/my_interfaces/share/my_interfaces/cmake/my_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[3.318s] -- Installing: /home/dl/ROSHW_ws/install/my_interfaces/share/my_interfaces/cmake/my_interfaces__rosidl_typesupport_cExport.cmake
+[3.318s] -- Installing: /home/dl/ROSHW_ws/install/my_interfaces/share/my_interfaces/cmake/my_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[3.318s] -- Installing: /home/dl/ROSHW_ws/install/my_interfaces/share/my_interfaces/cmake/export_my_interfaces__rosidl_generator_cppExport.cmake
+[3.318s] -- Installing: /home/dl/ROSHW_ws/install/my_interfaces/share/my_interfaces/cmake/export_my_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[3.318s] -- Installing: /home/dl/ROSHW_ws/install/my_interfaces/share/my_interfaces/cmake/export_my_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[3.318s] -- Installing: /home/dl/ROSHW_ws/install/my_interfaces/share/my_interfaces/cmake/my_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[3.318s] -- Installing: /home/dl/ROSHW_ws/install/my_interfaces/share/my_interfaces/cmake/my_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[3.318s] -- Installing: /home/dl/ROSHW_ws/install/my_interfaces/share/my_interfaces/cmake/my_interfaces__rosidl_typesupport_cppExport.cmake
+[3.318s] -- Installing: /home/dl/ROSHW_ws/install/my_interfaces/share/my_interfaces/cmake/my_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[3.318s] -- Installing: /home/dl/ROSHW_ws/install/my_interfaces/share/my_interfaces/cmake/export_my_interfaces__rosidl_generator_pyExport.cmake
+[3.318s] -- Installing: /home/dl/ROSHW_ws/install/my_interfaces/share/my_interfaces/cmake/export_my_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[3.321s] Invoked command in '/home/dl/ROSHW_ws/build/my_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/dl/ROSHW_ws/build/my_interfaces

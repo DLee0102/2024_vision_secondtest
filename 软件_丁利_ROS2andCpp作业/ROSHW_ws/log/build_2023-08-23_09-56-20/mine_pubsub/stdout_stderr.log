@@ -1,0 +1,14 @@
+[35m[1mConsolidate compiler generated dependencies of target miner[0m
+[ 50%] Built target oreyard
+[ 75%] [32mBuilding CXX object CMakeFiles/miner.dir/src/subscriber_miner.cpp.o[0m
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/dl/ROSHW_ws/src/mine_pubsub/include/mine_pubsub/subscriber_miner.hpp:8[m[K,
+                 from [01m[K/home/dl/ROSHW_ws/src/mine_pubsub/src/subscriber_miner.cpp:1[m[K:
+/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp: In instantiation of ‘[01m[Krclcpp::FutureReturnCode rclcpp::spin_until_future_complete(std::shared_ptr<_Tp>, const FutureT&, std::chrono::duration<_Rep2, _Period2>) [with NodeT = rclcpp::Subscription<my_interfaces::msg::MineralArray_<std::allocator<void> > >; FutureT = rclcpp::Client<my_interfaces::srv::Digging>::FutureAndRequestId; TimeRepT = long int; TimeT = std::ratio<1, 1000>][m[K’:
+[01m[K/home/dl/ROSHW_ws/src/mine_pubsub/src/subscriber_miner.cpp:29:47:[m[K   required from here
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:122:55:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class rclcpp::Subscription<my_interfaces::msg::MineralArray_<std::allocator<void> > >[m[K’ {aka ‘[01m[Kclass rclcpp::Subscription<my_interfaces::msg::MineralArray_<std::allocator<void> > >[m[K’} has no member named ‘[01m[Kget_node_base_interface[m[K’
+  122 |   return rclcpp::spin_until_future_complete([01;31m[Knode_ptr->get_node_base_interface[m[K(), future, timeout);
+      |                                             [01;31m[K~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/miner.dir/build.make:76：CMakeFiles/miner.dir/src/subscriber_miner.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:165：CMakeFiles/miner.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

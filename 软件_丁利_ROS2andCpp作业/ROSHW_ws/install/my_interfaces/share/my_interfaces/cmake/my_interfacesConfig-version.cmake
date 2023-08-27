@@ -1,0 +1,1 @@
+/home/dl/ROSHW_ws/build/my_interfaces/ament_cmake_core/my_interfacesConfig-version.cmake
