@@ -20,7 +20,7 @@ cd ROSHW_ws
 . install/setup.bash
 ```
 2. 运行
-</br>分别启动矿脉节点和矿工节点以及rviz2
+</br>分别启动矿脉节点和矿工节点以及rviz2，rviz2添加MarkerArray，订阅makerArray_pub节点以查看可视化路径
 ```
 ros2 launch mine_pubsub mine_pubsub.launch.py
 ros2 run mine_pubsub miner
