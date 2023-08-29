@@ -1,0 +1,25 @@
+[0.029s] Invoking command in '/media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/build/learning_tf2_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/build/learning_tf2_cpp -- -j16 -l16
+[0.122s] [ 50%] [32mBuilding CXX object CMakeFiles/hero_tf2_listener.dir/src/hero_tf2_listener.cpp.o[0m
+[2.971s] [100%] [32m[1mLinking CXX executable hero_tf2_listener[0m
+[3.119s] [100%] Built target hero_tf2_listener
+[3.133s] Invoked command in '/media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/build/learning_tf2_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/build/learning_tf2_cpp -- -j16 -l16
+[3.184s] Invoking command in '/media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/build/learning_tf2_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/build/learning_tf2_cpp
+[3.195s] -- Install configuration: ""
+[3.196s] -- Installing: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/learning_tf2_cpp/lib/learning_tf2_cpp/hero_tf2_listener
+[3.199s] -- Set runtime path of "/media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/learning_tf2_cpp/lib/learning_tf2_cpp/hero_tf2_listener" to ""
+[3.200s] -- Up-to-date: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/learning_tf2_cpp/share/ament_index/resource_index/package_run_dependencies/learning_tf2_cpp
+[3.201s] -- Up-to-date: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/learning_tf2_cpp/share/ament_index/resource_index/parent_prefix_path/learning_tf2_cpp
+[3.201s] -- Up-to-date: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/environment/ament_prefix_path.sh
+[3.202s] -- Up-to-date: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/environment/ament_prefix_path.dsv
+[3.202s] -- Up-to-date: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/environment/path.sh
+[3.203s] -- Up-to-date: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/environment/path.dsv
+[3.204s] -- Up-to-date: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/local_setup.bash
+[3.205s] -- Up-to-date: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/local_setup.sh
+[3.205s] -- Up-to-date: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/local_setup.zsh
+[3.206s] -- Up-to-date: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/local_setup.dsv
+[3.207s] -- Installing: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/package.dsv
+[3.209s] -- Up-to-date: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/learning_tf2_cpp/share/ament_index/resource_index/packages/learning_tf2_cpp
+[3.210s] -- Up-to-date: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/cmake/learning_tf2_cppConfig.cmake
+[3.211s] -- Up-to-date: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/cmake/learning_tf2_cppConfig-version.cmake
+[3.211s] -- Up-to-date: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/package.xml
+[3.215s] Invoked command in '/media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/build/learning_tf2_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/build/learning_tf2_cpp

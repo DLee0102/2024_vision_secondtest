@@ -1,0 +1,25 @@
+[0.038s] Invoking command in '/media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/build/buffertransform': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/build/buffertransform -- -j16 -l16
+[0.119s] [ 50%] [32mBuilding CXX object CMakeFiles/buffertransform.dir/src/buffertransform.cpp.o[0m
+[3.035s] [100%] [32m[1mLinking CXX executable buffertransform[0m
+[3.186s] [100%] Built target buffertransform
+[3.200s] Invoked command in '/media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/build/buffertransform' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/build/buffertransform -- -j16 -l16
+[3.249s] Invoking command in '/media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/build/buffertransform': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/build/buffertransform
+[3.259s] -- Install configuration: ""
+[3.260s] -- Installing: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/buffertransform/lib/buffertransform/buffertransform
+[3.264s] -- Set runtime path of "/media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/buffertransform/lib/buffertransform/buffertransform" to ""
+[3.265s] -- Up-to-date: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/buffertransform/share/ament_index/resource_index/package_run_dependencies/buffertransform
+[3.266s] -- Up-to-date: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/buffertransform/share/ament_index/resource_index/parent_prefix_path/buffertransform
+[3.266s] -- Up-to-date: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/buffertransform/share/buffertransform/environment/ament_prefix_path.sh
+[3.267s] -- Up-to-date: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/buffertransform/share/buffertransform/environment/ament_prefix_path.dsv
+[3.267s] -- Up-to-date: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/buffertransform/share/buffertransform/environment/path.sh
+[3.268s] -- Up-to-date: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/buffertransform/share/buffertransform/environment/path.dsv
+[3.269s] -- Up-to-date: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/buffertransform/share/buffertransform/local_setup.bash
+[3.269s] -- Up-to-date: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/buffertransform/share/buffertransform/local_setup.sh
+[3.270s] -- Up-to-date: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/buffertransform/share/buffertransform/local_setup.zsh
+[3.271s] -- Up-to-date: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/buffertransform/share/buffertransform/local_setup.dsv
+[3.271s] -- Installing: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/buffertransform/share/buffertransform/package.dsv
+[3.274s] -- Up-to-date: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/buffertransform/share/ament_index/resource_index/packages/buffertransform
+[3.275s] -- Up-to-date: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/buffertransform/share/buffertransform/cmake/buffertransformConfig.cmake
+[3.275s] -- Up-to-date: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/buffertransform/share/buffertransform/cmake/buffertransformConfig-version.cmake
+[3.276s] -- Up-to-date: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/buffertransform/share/buffertransform/package.xml
+[3.280s] Invoked command in '/media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/build/buffertransform' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/build/buffertransform
