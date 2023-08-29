@@ -1,0 +1,297 @@
+[0.024s] Invoking command in '/media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/build/my_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/src/my_interfaces -DCMAKE_INSTALL_PREFIX=/media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/my_interfaces
+[0.129s] -- The C compiler identification is GNU 11.4.0
+[0.184s] -- The CXX compiler identification is GNU 11.4.0
+[0.198s] -- Detecting C compiler ABI info
+[0.310s] -- Detecting C compiler ABI info - done
+[0.322s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.323s] -- Detecting C compile features
+[0.324s] -- Detecting C compile features - done
+[0.332s] -- Detecting CXX compiler ABI info
+[0.483s] -- Detecting CXX compiler ABI info - done
+[0.492s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.492s] -- Detecting CXX compile features
+[0.492s] -- Detecting CXX compile features - done
+[0.515s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.686s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.784s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.789s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.796s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.837s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.880s] -- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+[1.358s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.669s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.113s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.138s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[2.139s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[2.160s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[2.160s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.160s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[2.160s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[2.176s] -- Found PythonExtra: .so  
+[2.340s] -- Configuring done
+[2.550s] -- Generating done
+[2.566s] -- Build files have been written to: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/build/my_interfaces
+[2.574s] Invoked command in '/media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/build/my_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/src/my_interfaces -DCMAKE_INSTALL_PREFIX=/media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/my_interfaces
+[2.576s] Invoking command in '/media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/build/my_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/build/my_interfaces -- -j16 -l16
+[2.611s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[2.620s] [  4%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[2.629s] [  4%] Built target ament_cmake_python_copy_my_interfaces
+[2.879s] running egg_info
+[2.879s] creating my_interfaces.egg-info
+[2.880s] writing my_interfaces.egg-info/PKG-INFO
+[2.880s] writing dependency_links to my_interfaces.egg-info/dependency_links.txt
+[2.880s] writing top-level names to my_interfaces.egg-info/top_level.txt
+[2.883s] writing manifest file 'my_interfaces.egg-info/SOURCES.txt'
+[2.887s] reading manifest file 'my_interfaces.egg-info/SOURCES.txt'
+[2.889s] writing manifest file 'my_interfaces.egg-info/SOURCES.txt'
+[2.930s] [  4%] Built target ament_cmake_python_build_my_interfaces_egg
+[2.971s] [ 10%] [32mBuilding C object CMakeFiles/my_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_interfaces/msg/detail/mineral__functions.c.o[0m
+[2.971s] [ 10%] [32mBuilding C object CMakeFiles/my_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_interfaces/srv/detail/digging__functions.c.o[0m
+[2.972s] [ 10%] [32mBuilding C object CMakeFiles/my_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_interfaces/msg/detail/mineral_array__functions.c.o[0m
+[2.993s] [ 10%] Built target my_interfaces__cpp
+[3.006s] [ 17%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[3.007s] [ 17%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[3.007s] [ 17%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[3.060s] [ 19%] [32m[1mLinking C shared library libmy_interfaces__rosidl_generator_c.so[0m
+[3.105s] [ 19%] Built target my_interfaces__rosidl_generator_c
+[3.119s] [ 23%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[3.119s] [ 25%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[3.119s] [ 25%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[3.367s] [ 31%] [32mBuilding CXX object CMakeFiles/my_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_interfaces/srv/digging__type_support.cpp.o[0m
+[3.368s] [ 31%] [32mBuilding CXX object CMakeFiles/my_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_interfaces/msg/mineral__type_support.cpp.o[0m
+[3.368s] [ 31%] [32mBuilding CXX object CMakeFiles/my_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_interfaces/msg/mineral_array__type_support.cpp.o[0m
+[3.429s] [ 34%] [32mBuilding CXX object CMakeFiles/my_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_interfaces/msg/detail/mineral_array__type_support.cpp.o[0m
+[3.430s] [ 36%] [32mBuilding CXX object CMakeFiles/my_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_interfaces/msg/detail/mineral__type_support.cpp.o[0m
+[3.431s] [ 38%] [32mBuilding CXX object CMakeFiles/my_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_interfaces/srv/detail/digging__type_support.cpp.o[0m
+[3.445s] [ 44%] [32mBuilding CXX object CMakeFiles/my_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_interfaces/msg/detail/dds_fastrtps/mineral_array__type_support.cpp.o[0m
+[3.446s] [ 44%] [32mBuilding CXX object CMakeFiles/my_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_interfaces/msg/detail/dds_fastrtps/mineral__type_support.cpp.o[0m
+[3.447s] [ 44%] [32mBuilding CXX object CMakeFiles/my_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_interfaces/srv/detail/dds_fastrtps/digging__type_support.cpp.o[0m
+[3.546s] [ 48%] [32mBuilding CXX object CMakeFiles/my_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_interfaces/srv/digging__type_support.cpp.o[0m
+[3.547s] [ 48%] [32mBuilding CXX object CMakeFiles/my_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_interfaces/msg/mineral_array__type_support.cpp.o[0m
+[3.547s] [ 51%] [32mBuilding CXX object CMakeFiles/my_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_interfaces/msg/mineral__type_support.cpp.o[0m
+[3.563s] [ 57%] [32mBuilding C object CMakeFiles/my_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_interfaces/msg/detail/mineral_array__type_support.c.o[0m
+[3.564s] [ 57%] [32mBuilding C object CMakeFiles/my_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_interfaces/srv/detail/digging__type_support.c.o[0m
+[3.564s] [ 57%] [32mBuilding C object CMakeFiles/my_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_interfaces/msg/detail/mineral__type_support.c.o[0m
+[3.643s] [ 59%] [32m[1mLinking CXX shared library libmy_interfaces__rosidl_typesupport_c.so[0m
+[3.739s] [ 61%] [32mBuilding CXX object CMakeFiles/my_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_interfaces/msg/detail/mineral__type_support_c.cpp.o[0m
+[3.740s] [ 63%] [32m[1mLinking C shared library libmy_interfaces__rosidl_typesupport_introspection_c.so[0m
+[3.749s] [ 65%] [32mBuilding CXX object CMakeFiles/my_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_interfaces/msg/detail/mineral_array__type_support_c.cpp.o[0m
+[3.750s] [ 68%] [32mBuilding CXX object CMakeFiles/my_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_interfaces/srv/detail/digging__type_support_c.cpp.o[0m
+[3.780s] [ 68%] Built target my_interfaces__rosidl_typesupport_c
+[3.799s] [ 70%] [32m[1mLinking CXX shared library libmy_interfaces__rosidl_typesupport_cpp.so[0m
+[3.839s] [ 70%] Built target my_interfaces__rosidl_typesupport_introspection_c
+[3.890s] [ 70%] Built target my_interfaces__rosidl_typesupport_cpp
+[4.159s] [ 72%] [32m[1mLinking CXX shared library libmy_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[4.238s] [ 74%] [32m[1mLinking CXX shared library libmy_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[4.274s] [ 74%] Built target my_interfaces__rosidl_typesupport_introspection_cpp
+[4.283s] [ 76%] [32m[1mLinking CXX shared library libmy_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[4.350s] [ 76%] Built target my_interfaces__rosidl_typesupport_fastrtps_cpp
+[4.368s] [ 76%] Built target my_interfaces__rosidl_typesupport_fastrtps_c
+[4.386s] [ 76%] Built target my_interfaces
+[4.405s] [ 78%] [34m[1mGenerating Python code for ROS interfaces[0m
+[4.856s] [ 78%] Built target my_interfaces__py
+[4.874s] [ 85%] [32mBuilding C object CMakeFiles/my_interfaces__rosidl_generator_py.dir/rosidl_generator_py/my_interfaces/msg/_mineral_s.c.o[0m
+[4.874s] [ 85%] [32mBuilding C object CMakeFiles/my_interfaces__rosidl_generator_py.dir/rosidl_generator_py/my_interfaces/msg/_mineral_array_s.c.o[0m
+[4.875s] [ 85%] [32mBuilding C object CMakeFiles/my_interfaces__rosidl_generator_py.dir/rosidl_generator_py/my_interfaces/srv/_digging_s.c.o[0m
+[5.013s] [ 87%] [32m[1mLinking C shared library rosidl_generator_py/my_interfaces/libmy_interfaces__rosidl_generator_py.so[0m
+[5.057s] [ 87%] Built target my_interfaces__rosidl_generator_py
+[5.075s] [ 93%] [32mBuilding C object CMakeFiles/my_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/my_interfaces/_my_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[5.076s] [ 93%] [32mBuilding C object CMakeFiles/my_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/my_interfaces/_my_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[5.076s] [ 93%] [32mBuilding C object CMakeFiles/my_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/my_interfaces/_my_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[5.202s] [ 95%] [32m[1mLinking C shared library rosidl_generator_py/my_interfaces/my_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[5.209s] [100%] [32m[1mLinking C shared library rosidl_generator_py/my_interfaces/my_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[5.209s] [100%] [32m[1mLinking C shared library rosidl_generator_py/my_interfaces/my_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[5.252s] [100%] Built target my_interfaces__rosidl_typesupport_introspection_c__pyext
+[5.255s] [100%] Built target my_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[5.256s] [100%] Built target my_interfaces__rosidl_typesupport_c__pyext
+[5.271s] Invoked command in '/media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/build/my_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/build/my_interfaces -- -j16 -l16
+[5.336s] Invoking command in '/media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/build/my_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/build/my_interfaces
+[5.344s] -- Install configuration: ""
+[5.345s] -- Installing: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/my_interfaces/share/ament_index/resource_index/rosidl_interfaces/my_interfaces
+[5.347s] -- Installing: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/my_interfaces/include/my_interfaces/my_interfaces
+[5.348s] -- Installing: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg
+[5.348s] -- Installing: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail
+[5.350s] -- Installing: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/mineral_array__functions.c
+[5.352s] -- Installing: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/mineral_array__functions.h
+[5.354s] -- Installing: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/mineral_array__struct.h
+[5.355s] -- Installing: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/mineral_array__type_support.h
+[5.357s] -- Installing: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/mineral__functions.c
+[5.360s] -- Installing: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/mineral__functions.h
+[5.362s] -- Installing: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/mineral__struct.h
+[5.365s] -- Installing: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/mineral__type_support.h
+[5.367s] -- Installing: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/mineral.h
+[5.370s] -- Installing: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/mineral_array.h
+[5.372s] -- Installing: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/rosidl_generator_c__visibility_control.h
+[5.373s] -- Installing: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv
+[5.375s] -- Installing: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail
+[5.376s] -- Installing: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/digging__functions.c
+[5.378s] -- Installing: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/digging__functions.h
+[5.381s] -- Installing: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/digging__struct.h
+[5.383s] -- Installing: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/digging__type_support.h
+[5.386s] -- Installing: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/digging.h
+[5.388s] -- Installing: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/my_interfaces/share/my_interfaces/environment/library_path.sh
+[5.390s] -- Installing: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/my_interfaces/share/my_interfaces/environment/library_path.dsv
+[5.392s] -- Installing: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/my_interfaces/lib/libmy_interfaces__rosidl_generator_c.so
+[5.395s] -- Set runtime path of "/media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/my_interfaces/lib/libmy_interfaces__rosidl_generator_c.so" to ""
+[5.395s] -- Up-to-date: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/my_interfaces/include/my_interfaces/my_interfaces
+[5.396s] -- Up-to-date: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg
+[5.397s] -- Up-to-date: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail
+[5.398s] -- Installing: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/mineral_array__rosidl_typesupport_fastrtps_c.h
+[5.400s] -- Installing: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/mineral__rosidl_typesupport_fastrtps_c.h
+[5.403s] -- Installing: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[5.405s] -- Up-to-date: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv
+[5.405s] -- Up-to-date: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail
+[5.406s] -- Installing: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/digging__rosidl_typesupport_fastrtps_c.h
+[5.409s] -- Installing: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/my_interfaces/lib/libmy_interfaces__rosidl_typesupport_fastrtps_c.so
+[5.411s] -- Set runtime path of "/media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/my_interfaces/lib/libmy_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[5.411s] -- Up-to-date: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/my_interfaces/include/my_interfaces/my_interfaces
+[5.412s] -- Up-to-date: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg
+[5.413s] -- Up-to-date: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail
+[5.413s] -- Installing: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/mineral_array__rosidl_typesupport_introspection_c.h
+[5.419s] -- Installing: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/mineral_array__type_support.c
+[5.422s] -- Installing: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/mineral__rosidl_typesupport_introspection_c.h
+[5.424s] -- Installing: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/mineral__type_support.c
+[5.427s] -- Installing: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[5.429s] -- Up-to-date: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv
+[5.429s] -- Up-to-date: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail
+[5.430s] -- Installing: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/digging__rosidl_typesupport_introspection_c.h
+[5.433s] -- Installing: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/digging__type_support.c
+[5.435s] -- Installing: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/my_interfaces/lib/libmy_interfaces__rosidl_typesupport_introspection_c.so
+[5.438s] -- Set runtime path of "/media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/my_interfaces/lib/libmy_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[5.439s] -- Installing: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/my_interfaces/lib/libmy_interfaces__rosidl_typesupport_c.so
+[5.441s] -- Set runtime path of "/media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/my_interfaces/lib/libmy_interfaces__rosidl_typesupport_c.so" to ""
+[5.441s] -- Up-to-date: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/my_interfaces/include/my_interfaces/my_interfaces
+[5.442s] -- Up-to-date: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg
+[5.443s] -- Up-to-date: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail
+[5.444s] -- Installing: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/mineral_array__builder.hpp
+[5.446s] -- Installing: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/mineral_array__struct.hpp
+[5.448s] -- Installing: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/mineral_array__traits.hpp
+[5.451s] -- Installing: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/mineral__builder.hpp
+[5.453s] -- Installing: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/mineral__struct.hpp
+[5.456s] -- Installing: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/mineral__traits.hpp
+[5.458s] -- Installing: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/mineral.hpp
+[5.460s] -- Installing: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/mineral_array.hpp
+[5.462s] -- Up-to-date: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv
+[5.463s] -- Up-to-date: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail
+[5.464s] -- Installing: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/digging__builder.hpp
+[5.466s] -- Installing: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/digging__struct.hpp
+[5.468s] -- Installing: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/digging__traits.hpp
+[5.471s] -- Installing: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/digging.hpp
+[5.473s] -- Up-to-date: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/my_interfaces/include/my_interfaces/my_interfaces
+[5.474s] -- Up-to-date: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg
+[5.474s] -- Up-to-date: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail
+[5.475s] -- Installing: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/dds_fastrtps
+[5.477s] -- Installing: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/mineral_array__rosidl_typesupport_fastrtps_cpp.hpp
+[5.483s] -- Installing: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/mineral__rosidl_typesupport_fastrtps_cpp.hpp
+[5.485s] -- Installing: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[5.488s] -- Up-to-date: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv
+[5.488s] -- Up-to-date: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail
+[5.489s] -- Installing: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/dds_fastrtps
+[5.490s] -- Installing: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/digging__rosidl_typesupport_fastrtps_cpp.hpp
+[5.493s] -- Installing: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/my_interfaces/lib/libmy_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[5.496s] -- Set runtime path of "/media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/my_interfaces/lib/libmy_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[5.496s] -- Up-to-date: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/my_interfaces/include/my_interfaces/my_interfaces
+[5.497s] -- Up-to-date: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg
+[5.498s] -- Up-to-date: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail
+[5.499s] -- Installing: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/mineral_array__rosidl_typesupport_introspection_cpp.hpp
+[5.502s] -- Installing: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/mineral_array__type_support.cpp
+[5.505s] -- Installing: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/mineral__rosidl_typesupport_introspection_cpp.hpp
+[5.507s] -- Installing: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/mineral__type_support.cpp
+[5.509s] -- Up-to-date: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv
+[5.510s] -- Up-to-date: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail
+[5.511s] -- Installing: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/digging__rosidl_typesupport_introspection_cpp.hpp
+[5.514s] -- Installing: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/digging__type_support.cpp
+[5.517s] -- Installing: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/my_interfaces/lib/libmy_interfaces__rosidl_typesupport_introspection_cpp.so
+[5.522s] -- Set runtime path of "/media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/my_interfaces/lib/libmy_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[5.523s] -- Installing: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/my_interfaces/lib/libmy_interfaces__rosidl_typesupport_cpp.so
+[5.527s] -- Set runtime path of "/media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/my_interfaces/lib/libmy_interfaces__rosidl_typesupport_cpp.so" to ""
+[5.528s] -- Installing: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/my_interfaces/share/my_interfaces/environment/pythonpath.sh
+[5.531s] -- Installing: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/my_interfaces/share/my_interfaces/environment/pythonpath.dsv
+[5.535s] -- Installing: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces-0.0.0-py3.10.egg-info
+[5.537s] -- Installing: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[5.541s] -- Installing: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[5.545s] -- Installing: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[5.548s] -- Installing: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[5.552s] -- Installing: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces
+[5.554s] -- Installing: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/libmy_interfaces__rosidl_generator_py.so
+[5.557s] -- Installing: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/msg
+[5.559s] -- Installing: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/msg/_mineral.py
+[5.564s] -- Installing: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/msg/_mineral_array.py
+[5.568s] -- Installing: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/msg/_mineral_array_s.c
+[5.575s] -- Installing: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/msg/_mineral_s.c
+[5.583s] -- Installing: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/msg/__init__.py
+[5.587s] -- Installing: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/my_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[5.590s] -- Installing: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/my_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[5.594s] -- Installing: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/my_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[5.596s] -- Installing: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/srv
+[5.598s] -- Installing: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/srv/_digging.py
+[5.602s] -- Installing: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/srv/_digging_s.c
+[5.604s] -- Installing: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/srv/__init__.py
+[5.606s] -- Installing: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/_my_interfaces_s.ep.rosidl_typesupport_c.c
+[5.609s] -- Installing: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/_my_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[5.611s] -- Installing: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/_my_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[5.613s] -- Installing: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/__init__.py
+[5.668s] Listing '/media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces'...
+[5.669s] Compiling '/media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/__init__.py'...
+[5.669s] Listing '/media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/msg'...
+[5.669s] Compiling '/media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/msg/__init__.py'...
+[5.669s] Compiling '/media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/msg/_mineral.py'...
+[5.669s] Compiling '/media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/msg/_mineral_array.py'...
+[5.669s] Listing '/media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/srv'...
+[5.669s] Compiling '/media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/srv/__init__.py'...
+[5.669s] Compiling '/media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/srv/_digging.py'...
+[5.675s] -- Installing: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/my_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[5.678s] -- Set runtime path of "/media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/my_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[5.680s] -- Installing: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/my_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[5.683s] -- Set runtime path of "/media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/my_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[5.684s] -- Installing: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/my_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[5.687s] -- Set runtime path of "/media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/my_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[5.688s] -- Installing: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/my_interfaces/lib/libmy_interfaces__rosidl_generator_py.so
+[5.691s] -- Set runtime path of "/media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/my_interfaces/lib/libmy_interfaces__rosidl_generator_py.so" to ""
+[5.692s] -- Installing: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/my_interfaces/share/my_interfaces/msg/Mineral.idl
+[5.694s] -- Installing: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/my_interfaces/share/my_interfaces/msg/MineralArray.idl
+[5.696s] -- Installing: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/my_interfaces/share/my_interfaces/srv/Digging.idl
+[5.699s] -- Installing: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/my_interfaces/share/my_interfaces/msg/Mineral.msg
+[5.701s] -- Installing: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/my_interfaces/share/my_interfaces/msg/MineralArray.msg
+[5.703s] -- Installing: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/my_interfaces/share/my_interfaces/srv/Digging.srv
+[5.706s] -- Installing: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/my_interfaces/share/my_interfaces/srv/Digging_Request.msg
+[5.709s] -- Installing: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/my_interfaces/share/my_interfaces/srv/Digging_Response.msg
+[5.712s] -- Installing: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/my_interfaces/share/ament_index/resource_index/package_run_dependencies/my_interfaces
+[5.716s] -- Installing: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/my_interfaces/share/ament_index/resource_index/parent_prefix_path/my_interfaces
+[5.718s] -- Installing: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/my_interfaces/share/my_interfaces/environment/ament_prefix_path.sh
+[5.720s] -- Installing: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/my_interfaces/share/my_interfaces/environment/ament_prefix_path.dsv
+[5.723s] -- Installing: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/my_interfaces/share/my_interfaces/environment/path.sh
+[5.727s] -- Installing: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/my_interfaces/share/my_interfaces/environment/path.dsv
+[5.730s] -- Installing: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/my_interfaces/share/my_interfaces/local_setup.bash
+[5.732s] -- Installing: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/my_interfaces/share/my_interfaces/local_setup.sh
+[5.735s] -- Installing: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/my_interfaces/share/my_interfaces/local_setup.zsh
+[5.738s] -- Installing: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/my_interfaces/share/my_interfaces/local_setup.dsv
+[5.741s] -- Installing: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/my_interfaces/share/my_interfaces/package.dsv
+[5.745s] -- Installing: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/my_interfaces/share/ament_index/resource_index/packages/my_interfaces
+[5.749s] -- Installing: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/my_interfaces/share/my_interfaces/cmake/export_my_interfaces__rosidl_generator_cExport.cmake
+[5.753s] -- Installing: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/my_interfaces/share/my_interfaces/cmake/export_my_interfaces__rosidl_generator_cExport-noconfig.cmake
+[5.755s] -- Installing: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/my_interfaces/share/my_interfaces/cmake/export_my_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[5.759s] -- Installing: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/my_interfaces/share/my_interfaces/cmake/export_my_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[5.763s] -- Installing: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/my_interfaces/share/my_interfaces/cmake/my_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[5.766s] -- Installing: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/my_interfaces/share/my_interfaces/cmake/my_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[5.769s] -- Installing: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/my_interfaces/share/my_interfaces/cmake/my_interfaces__rosidl_typesupport_cExport.cmake
+[5.772s] -- Installing: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/my_interfaces/share/my_interfaces/cmake/my_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[5.774s] -- Installing: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/my_interfaces/share/my_interfaces/cmake/export_my_interfaces__rosidl_generator_cppExport.cmake
+[5.777s] -- Installing: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/my_interfaces/share/my_interfaces/cmake/export_my_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[5.779s] -- Installing: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/my_interfaces/share/my_interfaces/cmake/export_my_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[5.781s] -- Installing: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/my_interfaces/share/my_interfaces/cmake/my_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[5.784s] -- Installing: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/my_interfaces/share/my_interfaces/cmake/my_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[5.786s] -- Installing: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/my_interfaces/share/my_interfaces/cmake/my_interfaces__rosidl_typesupport_cppExport.cmake
+[5.788s] -- Installing: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/my_interfaces/share/my_interfaces/cmake/my_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[5.791s] -- Installing: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/my_interfaces/share/my_interfaces/cmake/export_my_interfaces__rosidl_generator_pyExport.cmake
+[5.793s] -- Installing: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/my_interfaces/share/my_interfaces/cmake/export_my_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[5.797s] -- Installing: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/my_interfaces/share/my_interfaces/cmake/rosidl_cmake-extras.cmake
+[5.799s] -- Installing: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/my_interfaces/share/my_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[5.799s] -- Installing: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/my_interfaces/share/my_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[5.802s] -- Installing: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/my_interfaces/share/my_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[5.804s] -- Installing: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/my_interfaces/share/my_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[5.806s] -- Installing: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/my_interfaces/share/my_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[5.808s] -- Installing: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/my_interfaces/share/my_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[5.811s] -- Installing: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/my_interfaces/share/my_interfaces/cmake/my_interfacesConfig.cmake
+[5.812s] -- Installing: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/my_interfaces/share/my_interfaces/cmake/my_interfacesConfig-version.cmake
+[5.816s] -- Installing: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/my_interfaces/share/my_interfaces/package.xml

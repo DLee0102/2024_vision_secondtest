@@ -1,1 +1,0 @@
-/home/dl/ROSHW_ws/build/my_interfaces/rosidl_typesupport_introspection_c/my_interfaces/srv/detail/digging__rosidl_typesupport_introspection_c.h

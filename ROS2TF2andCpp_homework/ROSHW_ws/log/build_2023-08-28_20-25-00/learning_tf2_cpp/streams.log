@@ -1,0 +1,54 @@
+[0.017s] Invoking command in '/media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/build/learning_tf2_cpp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/src/learning_tf2_cpp -DCMAKE_INSTALL_PREFIX=/media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/learning_tf2_cpp
+[0.115s] -- The C compiler identification is GNU 11.4.0
+[0.169s] -- The CXX compiler identification is GNU 11.4.0
+[0.183s] -- Detecting C compiler ABI info
+[0.295s] -- Detecting C compiler ABI info - done
+[0.303s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.307s] -- Detecting C compile features
+[0.309s] -- Detecting C compile features - done
+[0.316s] -- Detecting CXX compiler ABI info
+[0.468s] -- Detecting CXX compiler ABI info - done
+[0.478s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.478s] -- Detecting CXX compile features
+[0.482s] -- Detecting CXX compile features - done
+[0.500s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.667s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.770s] -- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.818s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.822s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.828s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.838s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.852s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.951s] -- Found rclcpp: 16.0.5 (/opt/ros/humble/share/rclcpp/cmake)
+[1.026s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.029s] -- Found rmw_fastrtps_cpp: 6.2.3 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.109s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.141s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.189s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.211s] -- Looking for pthread.h
+[1.327s] -- Looking for pthread.h - found
+[1.328s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.423s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.424s] -- Found Threads: TRUE  
+[1.531s] -- Found tf2: 0.25.3 (/opt/ros/humble/share/tf2/cmake)
+[1.545s] -- Found tf2_ros: 0.25.3 (/opt/ros/humble/share/tf2_ros/cmake)
+[1.904s] -- Configuring done
+[1.935s] -- Generating done
+[1.940s] -- Build files have been written to: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/build/learning_tf2_cpp
+[1.950s] Invoked command in '/media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/build/learning_tf2_cpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/src/learning_tf2_cpp -DCMAKE_INSTALL_PREFIX=/media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/learning_tf2_cpp
+[1.951s] Invoking command in '/media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/build/learning_tf2_cpp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/build/learning_tf2_cpp -- -j16 -l16
+[1.997s] [ 50%] [32mBuilding CXX object CMakeFiles/hero_tf2_listener.dir/src/hero_tf2_listener.cpp.o[0m
+[5.577s] [100%] [32m[1mLinking CXX executable hero_tf2_listener[0m
+[5.742s] [100%] Built target hero_tf2_listener
+[5.751s] Invoked command in '/media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/build/learning_tf2_cpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/build/learning_tf2_cpp -- -j16 -l16
+[5.769s] Invoking command in '/media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/build/learning_tf2_cpp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/build/learning_tf2_cpp
+[5.775s] -- Install configuration: ""
+[5.777s] -- Installing: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/learning_tf2_cpp/lib/learning_tf2_cpp/hero_tf2_listener
+[5.782s] -- Set runtime path of "/media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/learning_tf2_cpp/lib/learning_tf2_cpp/hero_tf2_listener" to ""
+[5.782s] [31mCMake Error at cmake_install.cmake:66 (file):
+[5.782s]   file INSTALL cannot find
+[5.782s]   "/media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/src/learning_tf2_cpp/launch":
+[5.783s]   No such file or directory.
+[5.783s] 
+[5.783s] [0m
+[5.783s] Invoked command in '/media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/build/learning_tf2_cpp' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/build/learning_tf2_cpp

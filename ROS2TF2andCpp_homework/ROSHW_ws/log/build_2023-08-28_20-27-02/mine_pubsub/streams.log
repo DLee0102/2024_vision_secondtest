@@ -1,0 +1,74 @@
+[0.011s] Invoking command in '/media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/build/mine_pubsub': AMENT_PREFIX_PATH=/media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/my_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/my_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/my_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/my_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/src/mine_pubsub -DCMAKE_INSTALL_PREFIX=/media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/mine_pubsub
+[0.079s] -- The C compiler identification is GNU 11.4.0
+[0.136s] -- The CXX compiler identification is GNU 11.4.0
+[0.145s] -- Detecting C compiler ABI info
+[0.246s] -- Detecting C compiler ABI info - done
+[0.253s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.253s] -- Detecting C compile features
+[0.253s] -- Detecting C compile features - done
+[0.258s] -- Detecting CXX compiler ABI info
+[0.370s] -- Detecting CXX compiler ABI info - done
+[0.376s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.376s] -- Detecting CXX compile features
+[0.376s] -- Detecting CXX compile features - done
+[0.381s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.553s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.652s] -- Found rclcpp: 16.0.5 (/opt/ros/humble/share/rclcpp/cmake)
+[0.706s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.713s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.723s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.737s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.758s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.829s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.833s] -- Found rmw_fastrtps_cpp: 6.2.3 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.944s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.972s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.016s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.031s] -- Looking for pthread.h
+[1.131s] -- Looking for pthread.h - found
+[1.132s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.225s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.226s] -- Found Threads: TRUE  
+[1.355s] -- Found my_interfaces: 0.0.0 (/media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/my_interfaces/share/my_interfaces/cmake)
+[1.469s] -- Found tf2: 0.25.3 (/opt/ros/humble/share/tf2/cmake)
+[1.485s] -- Found tf2_ros: 0.25.3 (/opt/ros/humble/share/tf2_ros/cmake)
+[1.761s] -- Found visualization_msgs: 4.2.3 (/opt/ros/humble/share/visualization_msgs/cmake)
+[2.010s] -- Configuring done
+[2.061s] -- Generating done
+[2.067s] -- Build files have been written to: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/build/mine_pubsub
+[2.077s] Invoked command in '/media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/build/mine_pubsub' returned '0': AMENT_PREFIX_PATH=/media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/my_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/my_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/my_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/my_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/src/mine_pubsub -DCMAKE_INSTALL_PREFIX=/media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/mine_pubsub
+[2.079s] Invoking command in '/media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/build/mine_pubsub': AMENT_PREFIX_PATH=/media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/my_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/my_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/my_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/my_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/build/mine_pubsub -- -j16 -l16
+[2.143s] [ 50%] [32mBuilding CXX object CMakeFiles/miner.dir/src/subscriber_miner.cpp.o[0m
+[2.143s] [ 50%] [32mBuilding CXX object CMakeFiles/oreyard.dir/src/publisher_oreyard.cpp.o[0m
+[6.429s] [ 75%] [32m[1mLinking CXX executable oreyard[0m
+[6.684s] [ 75%] Built target oreyard
+[9.685s] [100%] [32m[1mLinking CXX executable miner[0m
+[10.147s] [100%] Built target miner
+[10.158s] Invoked command in '/media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/build/mine_pubsub' returned '0': AMENT_PREFIX_PATH=/media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/my_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/my_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/my_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/my_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/build/mine_pubsub -- -j16 -l16
+[10.178s] Invoking command in '/media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/build/mine_pubsub': AMENT_PREFIX_PATH=/media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/my_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/my_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/my_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/my_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/build/mine_pubsub
+[10.187s] -- Install configuration: ""
+[10.187s] -- Installing: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/mine_pubsub/share/mine_pubsub/launch
+[10.188s] -- Installing: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/mine_pubsub/share/mine_pubsub/launch/mine_pubsub.launch.py
+[10.190s] -- Installing: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/mine_pubsub/share/mine_pubsub/launch/mine_pubsub.rviz
+[10.192s] -- Installing: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/mine_pubsub/share/mine_pubsub/config
+[10.193s] -- Installing: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/mine_pubsub/share/mine_pubsub/config/params.yaml
+[10.195s] -- Installing: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/mine_pubsub/lib/mine_pubsub/oreyard
+[10.204s] -- Set runtime path of "/media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/mine_pubsub/lib/mine_pubsub/oreyard" to ""
+[10.205s] -- Installing: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/mine_pubsub/lib/mine_pubsub/miner
+[10.228s] -- Set runtime path of "/media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/mine_pubsub/lib/mine_pubsub/miner" to ""
+[10.229s] -- Installing: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/mine_pubsub/share/ament_index/resource_index/package_run_dependencies/mine_pubsub
+[10.232s] -- Installing: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/mine_pubsub/share/ament_index/resource_index/parent_prefix_path/mine_pubsub
+[10.235s] -- Installing: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/mine_pubsub/share/mine_pubsub/environment/ament_prefix_path.sh
+[10.237s] -- Installing: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/mine_pubsub/share/mine_pubsub/environment/ament_prefix_path.dsv
+[10.238s] -- Installing: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/mine_pubsub/share/mine_pubsub/environment/path.sh
+[10.240s] -- Installing: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/mine_pubsub/share/mine_pubsub/environment/path.dsv
+[10.241s] -- Installing: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/mine_pubsub/share/mine_pubsub/local_setup.bash
+[10.243s] -- Installing: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/mine_pubsub/share/mine_pubsub/local_setup.sh
+[10.245s] -- Installing: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/mine_pubsub/share/mine_pubsub/local_setup.zsh
+[10.247s] -- Installing: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/mine_pubsub/share/mine_pubsub/local_setup.dsv
+[10.249s] -- Installing: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/mine_pubsub/share/mine_pubsub/package.dsv
+[10.252s] -- Installing: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/mine_pubsub/share/ament_index/resource_index/packages/mine_pubsub
+[10.254s] -- Installing: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/mine_pubsub/share/mine_pubsub/cmake/mine_pubsubConfig.cmake
+[10.256s] -- Installing: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/mine_pubsub/share/mine_pubsub/cmake/mine_pubsubConfig-version.cmake
+[10.258s] -- Installing: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/mine_pubsub/share/mine_pubsub/package.xml
+[10.262s] Invoked command in '/media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/build/mine_pubsub' returned '0': AMENT_PREFIX_PATH=/media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/my_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/my_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/my_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/install/my_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/build/mine_pubsub

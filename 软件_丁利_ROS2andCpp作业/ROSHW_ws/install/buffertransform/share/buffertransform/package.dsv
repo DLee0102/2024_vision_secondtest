@@ -1,8 +1,0 @@
-source;share/buffertransform/hook/cmake_prefix_path.ps1
-source;share/buffertransform/hook/cmake_prefix_path.dsv
-source;share/buffertransform/hook/cmake_prefix_path.sh
-source;share/buffertransform/local_setup.bash
-source;share/buffertransform/local_setup.dsv
-source;share/buffertransform/local_setup.ps1
-source;share/buffertransform/local_setup.sh
-source;share/buffertransform/local_setup.zsh

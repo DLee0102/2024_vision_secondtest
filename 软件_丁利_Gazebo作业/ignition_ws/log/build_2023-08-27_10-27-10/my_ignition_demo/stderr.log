@@ -1,8 +1,0 @@
-/usr/bin/ld: warning: libopencv_imgproc.so.4.5d, needed by /opt/ros/humble/lib/libcv_bridge.so, may conflict with libopencv_imgproc.so.407
-/usr/bin/ld: warning: libopencv_core.so.4.5d, needed by /opt/ros/humble/lib/libcv_bridge.so, may conflict with libopencv_core.so.407
-/usr/bin/ld: CMakeFiles/myrobot_follow.dir/src/myrobot_follow.cpp.o: in function `Mydemo::Myrobot_follow::topic_callback(sensor_msgs::msg::Image_<std::allocator<void> > const&)':
-myrobot_follow.cpp:(.text+0xa1c): undefined reference to `Mydemo::Myrobot_follow::findCenter(cv::Mat&, double&, double&, double, bool&)'
-collect2: error: ld returned 1 exit status
-gmake[2]: *** [CMakeFiles/myrobot_follow.dir/build.make:191：myrobot_follow] 错误 1
-gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/myrobot_follow.dir/all] 错误 2
-gmake: *** [Makefile:146：all] 错误 2

@@ -1,3 +1,0 @@
-[0mCMake Error: The source directory "/home/dl/ROSHW_ws/src/Mine_pubsub" does not exist.
-Specify --help for usage, or press the help button on the CMake GUI.[0m
-gmake: *** [Makefile:308：cmake_check_build_system] 错误 1

@@ -1,4 +1,0 @@
-Visualization Manager:
-  Displays:
-    - Class: rviz_default_plugins/Image
-      Topic: /camera

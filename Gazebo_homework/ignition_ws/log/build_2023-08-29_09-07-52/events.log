@@ -1,0 +1,194 @@
+[0.000000] (-) TimerEvent: {}
+[0.000430] (my_ignition_demo) JobQueued: {'identifier': 'my_ignition_demo', 'dependencies': OrderedDict()}
+[0.000489] (my_ignition_demo) JobStarted: {'identifier': 'my_ignition_demo'}
+[0.009740] (my_ignition_demo) JobProgress: {'identifier': 'my_ignition_demo', 'progress': 'cmake'}
+[0.010468] (my_ignition_demo) Command: {'cmd': ['/usr/bin/cmake', '/media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/Gazebo_homework/ignition_ws/src/my_ignition_demo', '-DCMAKE_INSTALL_PREFIX=/media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/Gazebo_homework/ignition_ws/install/my_ignition_demo'], 'cwd': '/media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/Gazebo_homework/ignition_ws/build/my_ignition_demo', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'dl'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/dl'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/Gazebo_homework'), ('TERM_PROGRAM_VERSION', '1.81.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1731'), ('SYSTEMD_EXEC_PID', '2183'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3018'), ('_colcon_cd_root', '/opt/ros/humble/'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'dl'), ('JOURNAL_STREAM', '8:36287'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'dl'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/media/dl/dlssd/Ubuntu/miniconda/miniconda3/condabin:/usr/local/lib/nodejs/node-v20.3.1-linux-x64/bin:/home/dl/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/DLee:@/tmp/.ICE-unix/2155,unix/DLee:/tmp/.ICE-unix/2155'), ('INVOCATION_ID', 'da3e5780e9a4452895818b3784fed43a'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-995233d957.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/media/dl/dlssd/Ubuntu/miniconda/miniconda3/bin/python'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/Gazebo_homework/ignition_ws/build/my_ignition_demo'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/media/dl/dlssd/Ubuntu/miniconda/miniconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.094373] (-) TimerEvent: {}
+[0.142527] (my_ignition_demo) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.194464] (-) TimerEvent: {}
+[0.239162] (my_ignition_demo) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.250324] (my_ignition_demo) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.294625] (-) TimerEvent: {}
+[0.343497] (my_ignition_demo) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.351187] (my_ignition_demo) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.351611] (my_ignition_demo) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.352117] (my_ignition_demo) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.357301] (my_ignition_demo) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.394707] (-) TimerEvent: {}
+[0.454633] (my_ignition_demo) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.462171] (my_ignition_demo) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.462504] (my_ignition_demo) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.462699] (my_ignition_demo) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.469266] (my_ignition_demo) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.494793] (-) TimerEvent: {}
+[0.595099] (-) TimerEvent: {}
+[0.614754] (my_ignition_demo) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[0.695199] (-) TimerEvent: {}
+[0.706439] (my_ignition_demo) StdoutLine: {'line': b'-- Found rclcpp: 16.0.5 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.755024] (my_ignition_demo) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.760731] (my_ignition_demo) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.770762] (my_ignition_demo) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.788215] (my_ignition_demo) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.795271] (-) TimerEvent: {}
+[0.809718] (my_ignition_demo) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.874929] (my_ignition_demo) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.877902] (my_ignition_demo) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.3 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.895358] (-) TimerEvent: {}
+[0.966651] (my_ignition_demo) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.993063] (my_ignition_demo) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.995418] (-) TimerEvent: {}
+[1.040783] (my_ignition_demo) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.059292] (my_ignition_demo) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.095545] (-) TimerEvent: {}
+[1.160109] (my_ignition_demo) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.160962] (my_ignition_demo) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.195677] (-) TimerEvent: {}
+[1.252846] (my_ignition_demo) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.254340] (my_ignition_demo) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.295822] (-) TimerEvent: {}
+[1.396275] (-) TimerEvent: {}
+[1.399135] (my_ignition_demo) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[1.441411] (my_ignition_demo) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[1.496419] (-) TimerEvent: {}
+[1.512603] (my_ignition_demo) StdoutLine: {'line': b'-- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)\n'}
+[1.524355] (my_ignition_demo) StdoutLine: {'line': b'-- Found OpenCV: /usr/local (found suitable version "4.7.0", minimum required is "4.5.0") \n'}
+[1.596610] (-) TimerEvent: {}
+[1.601293] (my_ignition_demo) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.638789] (my_ignition_demo) StdoutLine: {'line': b'-- Generating done\n'}
+[1.644201] (my_ignition_demo) StdoutLine: {'line': b'-- Build files have been written to: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/Gazebo_homework/ignition_ws/build/my_ignition_demo\n'}
+[1.655968] (my_ignition_demo) CommandEnded: {'returncode': 0}
+[1.656714] (my_ignition_demo) JobProgress: {'identifier': 'my_ignition_demo', 'progress': 'build'}
+[1.657669] (my_ignition_demo) Command: {'cmd': ['/usr/bin/cmake', '--build', '/media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/Gazebo_homework/ignition_ws/build/my_ignition_demo', '--', '-j16', '-l16'], 'cwd': '/media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/Gazebo_homework/ignition_ws/build/my_ignition_demo', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'dl'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/dl'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/Gazebo_homework'), ('TERM_PROGRAM_VERSION', '1.81.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1731'), ('SYSTEMD_EXEC_PID', '2183'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3018'), ('_colcon_cd_root', '/opt/ros/humble/'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'dl'), ('JOURNAL_STREAM', '8:36287'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'dl'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/media/dl/dlssd/Ubuntu/miniconda/miniconda3/condabin:/usr/local/lib/nodejs/node-v20.3.1-linux-x64/bin:/home/dl/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/DLee:@/tmp/.ICE-unix/2155,unix/DLee:/tmp/.ICE-unix/2155'), ('INVOCATION_ID', 'da3e5780e9a4452895818b3784fed43a'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-995233d957.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/media/dl/dlssd/Ubuntu/miniconda/miniconda3/bin/python'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/Gazebo_homework/ignition_ws/build/my_ignition_demo'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/media/dl/dlssd/Ubuntu/miniconda/miniconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[1.696666] (-) TimerEvent: {}
+[1.704628] (my_ignition_demo) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/myrobot_follow.dir/src/myrobot_follow.cpp.o\x1b[0m\n'}
+[1.796817] (-) TimerEvent: {}
+[1.897211] (-) TimerEvent: {}
+[1.997558] (-) TimerEvent: {}
+[2.097864] (-) TimerEvent: {}
+[2.198166] (-) TimerEvent: {}
+[2.298583] (-) TimerEvent: {}
+[2.399023] (-) TimerEvent: {}
+[2.499577] (-) TimerEvent: {}
+[2.599943] (-) TimerEvent: {}
+[2.700264] (-) TimerEvent: {}
+[2.800579] (-) TimerEvent: {}
+[2.900977] (-) TimerEvent: {}
+[3.001298] (-) TimerEvent: {}
+[3.101574] (-) TimerEvent: {}
+[3.201861] (-) TimerEvent: {}
+[3.302234] (-) TimerEvent: {}
+[3.402674] (-) TimerEvent: {}
+[3.503095] (-) TimerEvent: {}
+[3.603628] (-) TimerEvent: {}
+[3.704230] (-) TimerEvent: {}
+[3.804622] (-) TimerEvent: {}
+[3.904973] (-) TimerEvent: {}
+[4.005480] (-) TimerEvent: {}
+[4.105898] (-) TimerEvent: {}
+[4.206373] (-) TimerEvent: {}
+[4.306977] (-) TimerEvent: {}
+[4.407296] (-) TimerEvent: {}
+[4.507612] (-) TimerEvent: {}
+[4.607949] (-) TimerEvent: {}
+[4.708279] (-) TimerEvent: {}
+[4.808614] (-) TimerEvent: {}
+[4.909033] (-) TimerEvent: {}
+[5.009391] (-) TimerEvent: {}
+[5.109697] (-) TimerEvent: {}
+[5.210004] (-) TimerEvent: {}
+[5.310319] (-) TimerEvent: {}
+[5.410642] (-) TimerEvent: {}
+[5.510958] (-) TimerEvent: {}
+[5.611274] (-) TimerEvent: {}
+[5.711587] (-) TimerEvent: {}
+[5.811916] (-) TimerEvent: {}
+[5.912472] (-) TimerEvent: {}
+[6.013008] (-) TimerEvent: {}
+[6.113629] (-) TimerEvent: {}
+[6.214043] (-) TimerEvent: {}
+[6.314440] (-) TimerEvent: {}
+[6.414908] (-) TimerEvent: {}
+[6.515213] (-) TimerEvent: {}
+[6.615512] (-) TimerEvent: {}
+[6.715809] (-) TimerEvent: {}
+[6.816196] (-) TimerEvent: {}
+[6.916544] (-) TimerEvent: {}
+[7.016898] (-) TimerEvent: {}
+[7.117213] (-) TimerEvent: {}
+[7.217528] (-) TimerEvent: {}
+[7.317885] (-) TimerEvent: {}
+[7.418246] (-) TimerEvent: {}
+[7.518621] (-) TimerEvent: {}
+[7.618995] (-) TimerEvent: {}
+[7.719330] (-) TimerEvent: {}
+[7.819667] (-) TimerEvent: {}
+[7.919959] (-) TimerEvent: {}
+[8.020265] (-) TimerEvent: {}
+[8.120591] (-) TimerEvent: {}
+[8.221071] (-) TimerEvent: {}
+[8.321603] (-) TimerEvent: {}
+[8.421911] (-) TimerEvent: {}
+[8.522206] (-) TimerEvent: {}
+[8.622516] (-) TimerEvent: {}
+[8.722827] (-) TimerEvent: {}
+[8.823167] (-) TimerEvent: {}
+[8.923491] (-) TimerEvent: {}
+[9.023806] (-) TimerEvent: {}
+[9.124194] (-) TimerEvent: {}
+[9.224558] (-) TimerEvent: {}
+[9.324870] (-) TimerEvent: {}
+[9.425183] (-) TimerEvent: {}
+[9.525510] (-) TimerEvent: {}
+[9.625834] (-) TimerEvent: {}
+[9.726164] (-) TimerEvent: {}
+[9.826483] (-) TimerEvent: {}
+[9.926825] (-) TimerEvent: {}
+[10.027138] (-) TimerEvent: {}
+[10.127517] (-) TimerEvent: {}
+[10.227852] (-) TimerEvent: {}
+[10.328304] (-) TimerEvent: {}
+[10.428855] (-) TimerEvent: {}
+[10.529436] (-) TimerEvent: {}
+[10.626282] (my_ignition_demo) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable myrobot_follow\x1b[0m\n'}
+[10.629510] (-) TimerEvent: {}
+[10.729897] (-) TimerEvent: {}
+[10.830313] (-) TimerEvent: {}
+[10.846554] (my_ignition_demo) StderrLine: {'line': b'/usr/bin/ld: warning: libopencv_imgproc.so.4.5d, needed by /opt/ros/humble/lib/libcv_bridge.so, may conflict with libopencv_imgproc.so.407\n'}
+[10.847148] (my_ignition_demo) StderrLine: {'line': b'/usr/bin/ld: warning: libopencv_core.so.4.5d, needed by /opt/ros/humble/lib/libcv_bridge.so, may conflict with libopencv_core.so.407\n'}
+[10.930402] (-) TimerEvent: {}
+[11.030762] (-) TimerEvent: {}
+[11.131253] (-) TimerEvent: {}
+[11.231778] (-) TimerEvent: {}
+[11.332138] (-) TimerEvent: {}
+[11.424055] (my_ignition_demo) StdoutLine: {'line': b'[100%] Built target myrobot_follow\n'}
+[11.432277] (-) TimerEvent: {}
+[11.433788] (my_ignition_demo) CommandEnded: {'returncode': 0}
+[11.454898] (my_ignition_demo) JobProgress: {'identifier': 'my_ignition_demo', 'progress': 'install'}
+[11.462460] (my_ignition_demo) Command: {'cmd': ['/usr/bin/cmake', '--install', '/media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/Gazebo_homework/ignition_ws/build/my_ignition_demo'], 'cwd': '/media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/Gazebo_homework/ignition_ws/build/my_ignition_demo', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'dl'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/dl'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/Gazebo_homework'), ('TERM_PROGRAM_VERSION', '1.81.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1731'), ('SYSTEMD_EXEC_PID', '2183'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3018'), ('_colcon_cd_root', '/opt/ros/humble/'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'dl'), ('JOURNAL_STREAM', '8:36287'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'dl'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/media/dl/dlssd/Ubuntu/miniconda/miniconda3/condabin:/usr/local/lib/nodejs/node-v20.3.1-linux-x64/bin:/home/dl/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/DLee:@/tmp/.ICE-unix/2155,unix/DLee:/tmp/.ICE-unix/2155'), ('INVOCATION_ID', 'da3e5780e9a4452895818b3784fed43a'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-995233d957.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/media/dl/dlssd/Ubuntu/miniconda/miniconda3/bin/python'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/Gazebo_homework/ignition_ws/build/my_ignition_demo'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/media/dl/dlssd/Ubuntu/miniconda/miniconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[11.470262] (my_ignition_demo) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[11.471589] (my_ignition_demo) StdoutLine: {'line': b'-- Installing: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/Gazebo_homework/ignition_ws/install/my_ignition_demo/lib/my_ignition_demo/myrobot_follow\n'}
+[11.494914] (my_ignition_demo) StdoutLine: {'line': b'-- Set runtime path of "/media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/Gazebo_homework/ignition_ws/install/my_ignition_demo/lib/my_ignition_demo/myrobot_follow" to ""\n'}
+[11.495190] (my_ignition_demo) StdoutLine: {'line': b'-- Installing: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/Gazebo_homework/ignition_ws/install/my_ignition_demo/share/my_ignition_demo/launch\n'}
+[11.496232] (my_ignition_demo) StdoutLine: {'line': b'-- Installing: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/Gazebo_homework/ignition_ws/install/my_ignition_demo/share/my_ignition_demo/launch/myrobot_follow.launch.py\n'}
+[11.498654] (my_ignition_demo) StdoutLine: {'line': b'-- Installing: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/Gazebo_homework/ignition_ws/install/my_ignition_demo/share/my_ignition_demo/launch/myrobot_follow.rviz\n'}
+[11.500306] (my_ignition_demo) StdoutLine: {'line': b'-- Installing: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/Gazebo_homework/ignition_ws/install/my_ignition_demo/share/my_ignition_demo/config\n'}
+[11.501333] (my_ignition_demo) StdoutLine: {'line': b'-- Installing: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/Gazebo_homework/ignition_ws/install/my_ignition_demo/share/my_ignition_demo/config/params.yaml\n'}
+[11.504602] (my_ignition_demo) StdoutLine: {'line': b'-- Installing: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/Gazebo_homework/ignition_ws/install/my_ignition_demo/share/ament_index/resource_index/package_run_dependencies/my_ignition_demo\n'}
+[11.507369] (my_ignition_demo) StdoutLine: {'line': b'-- Installing: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/Gazebo_homework/ignition_ws/install/my_ignition_demo/share/ament_index/resource_index/parent_prefix_path/my_ignition_demo\n'}
+[11.509492] (my_ignition_demo) StdoutLine: {'line': b'-- Installing: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/Gazebo_homework/ignition_ws/install/my_ignition_demo/share/my_ignition_demo/environment/ament_prefix_path.sh\n'}
+[11.511189] (my_ignition_demo) StdoutLine: {'line': b'-- Installing: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/Gazebo_homework/ignition_ws/install/my_ignition_demo/share/my_ignition_demo/environment/ament_prefix_path.dsv\n'}
+[11.513505] (my_ignition_demo) StdoutLine: {'line': b'-- Installing: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/Gazebo_homework/ignition_ws/install/my_ignition_demo/share/my_ignition_demo/environment/path.sh\n'}
+[11.515051] (my_ignition_demo) StdoutLine: {'line': b'-- Installing: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/Gazebo_homework/ignition_ws/install/my_ignition_demo/share/my_ignition_demo/environment/path.dsv\n'}
+[11.516984] (my_ignition_demo) StdoutLine: {'line': b'-- Installing: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/Gazebo_homework/ignition_ws/install/my_ignition_demo/share/my_ignition_demo/local_setup.bash\n'}
+[11.519244] (my_ignition_demo) StdoutLine: {'line': b'-- Installing: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/Gazebo_homework/ignition_ws/install/my_ignition_demo/share/my_ignition_demo/local_setup.sh\n'}
+[11.521331] (my_ignition_demo) StdoutLine: {'line': b'-- Installing: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/Gazebo_homework/ignition_ws/install/my_ignition_demo/share/my_ignition_demo/local_setup.zsh\n'}
+[11.523654] (my_ignition_demo) StdoutLine: {'line': b'-- Installing: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/Gazebo_homework/ignition_ws/install/my_ignition_demo/share/my_ignition_demo/local_setup.dsv\n'}
+[11.525494] (my_ignition_demo) StdoutLine: {'line': b'-- Installing: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/Gazebo_homework/ignition_ws/install/my_ignition_demo/share/my_ignition_demo/package.dsv\n'}
+[11.527907] (my_ignition_demo) StdoutLine: {'line': b'-- Installing: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/Gazebo_homework/ignition_ws/install/my_ignition_demo/share/ament_index/resource_index/packages/my_ignition_demo\n'}
+[11.531587] (my_ignition_demo) StdoutLine: {'line': b'-- Installing: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/Gazebo_homework/ignition_ws/install/my_ignition_demo/share/my_ignition_demo/cmake/my_ignition_demoConfig.cmake\n'}
+[11.532316] (-) TimerEvent: {}
+[11.533517] (my_ignition_demo) StdoutLine: {'line': b'-- Installing: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/Gazebo_homework/ignition_ws/install/my_ignition_demo/share/my_ignition_demo/cmake/my_ignition_demoConfig-version.cmake\n'}
+[11.535986] (my_ignition_demo) StdoutLine: {'line': b'-- Installing: /media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/Gazebo_homework/ignition_ws/install/my_ignition_demo/share/my_ignition_demo/package.xml\n'}
+[11.539677] (my_ignition_demo) CommandEnded: {'returncode': 0}
+[11.599451] (my_ignition_demo) JobEnded: {'identifier': 'my_ignition_demo', 'rc': 0}
+[11.600166] (-) EventReactorShutdown: {}

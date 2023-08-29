@@ -1,1 +1,0 @@
-/home/dl/ROSHW_ws/build/mine_pubsub/ament_cmake_core/mine_pubsubConfig-version.cmake

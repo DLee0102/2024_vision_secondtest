@@ -1,1 +1,0 @@
-/home/dl/ROSHW_ws/build/my_interfaces/rosidl_generator_py/my_interfaces/srv/_digging_s.c

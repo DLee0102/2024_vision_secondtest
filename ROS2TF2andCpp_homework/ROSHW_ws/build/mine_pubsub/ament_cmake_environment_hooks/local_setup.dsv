@@ -1,0 +1,2 @@
+source;share/mine_pubsub/environment/ament_prefix_path.sh
+source;share/mine_pubsub/environment/path.sh

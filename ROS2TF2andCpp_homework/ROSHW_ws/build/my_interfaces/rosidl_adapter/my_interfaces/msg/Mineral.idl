@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from my_interfaces/msg/Mineral.msg
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Point.idl"
+
+module my_interfaces {
+  module msg {
+    struct Mineral {
+      int32 id;
+
+      string species;
+
+      geometry_msgs::msg::Point position;
+
+      double value;
+    };
+  };
+};

@@ -1,0 +1,8 @@
+{
+  "package_name": "my_interfaces",
+  "non_idl_tuples": [
+    "/media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/src/my_interfaces:msg/Mineral.msg",
+    "/media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/src/my_interfaces:msg/MineralArray.msg",
+    "/media/dl/dlssd/Ubuntu/Hotpot/2024SeasonExam/2024_vision_secondtest/ROS2TF2andCpp_homework/ROSHW_ws/src/my_interfaces:srv/Digging.srv"
+  ]
+}

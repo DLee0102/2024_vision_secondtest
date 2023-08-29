@@ -1,8 +1,0 @@
-{
-  "package_name": "my_interfaces",
-  "non_idl_tuples": [
-    "/home/dl/ROSHW_ws/src/my_interfaces:msg/Mineral.msg",
-    "/home/dl/ROSHW_ws/src/my_interfaces:msg/MineralArray.msg",
-    "/home/dl/ROSHW_ws/src/my_interfaces:srv/Digging.srv"
-  ]
-}

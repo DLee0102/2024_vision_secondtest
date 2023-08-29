@@ -1,0 +1,8 @@
+msg/Mineral.idl
+msg/Mineral.msg
+msg/MineralArray.idl
+msg/MineralArray.msg
+srv/Digging.idl
+srv/Digging.srv
+srv/Digging_Request.msg
+srv/Digging_Response.msg
