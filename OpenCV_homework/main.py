@@ -25,19 +25,14 @@ angle_speedlist = []
 def predict_solve(a, b, circle_r_, circle_center, rotation_num, angle_v = 60):
     if rotation_num > 0:
         # 顺时针
-        # y = (b + math.sqrt(3) * a) / 2
-        # x = (a * y - math.sqrt(3) / 2 * math.pow(circle_r_, 2)) / b
-        # y = y + circle_center[1]
-        # x = x + circle_center[0]
-        
         y = math.cos(angle_v) * b + math.sin(angle_v) * a
         x = (a * y - math.sin(angle_v) * math.pow(circle_r_, 2)) / b
         y = y + circle_center[1]
         x = x + circle_center[0]
     else:
         # 逆时针
-        y = (b - math.sqrt(3) * a) / 2
-        x = (math.sqrt(3) / 2 * math.pow(circle_r_, 2) + a * y) / b 
+        y = math.cos(angle_v) * b - math.sin(angle_v) * a
+        x = (math.sin(angle_v) * math.pow(circle_r_, 2) + a * y) / b 
         y = y + circle_center[1]
         x = x + circle_center[0]
     
