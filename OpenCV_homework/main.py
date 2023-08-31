@@ -2,6 +2,8 @@ import cv2
 import numpy as np
 import math
 from utiles import PreprocessImage, TargetRect
+import time
+import matplotlib.pyplot as plt
 
 # 用于判断旋转方向
 rotation_angle = 0
@@ -13,12 +15,23 @@ rotation_num = 0
 circle_center = None
 circle_r = 0
 
+# 用于计算瞬时角速度
+angle_v = 0
+
+# 用于记录瞬时速度
+angle_speedlist = []
+
 # 利用 预测装甲板的每个角点都在圆上 以及 角点与旋转圆心构成的向量夹角为六十度（向量外积） 两个条件构建方程组进行解算
-def predict_solve(a, b, circle_r_, circle_center, rotation_num):
+def predict_solve(a, b, circle_r_, circle_center, rotation_num, angle_v = 60):
     if rotation_num > 0:
         # 顺时针
-        y = (b + math.sqrt(3) * a) / 2
-        x = (a * y - math.sqrt(3) / 2 * math.pow(circle_r_, 2)) / b
+        # y = (b + math.sqrt(3) * a) / 2
+        # x = (a * y - math.sqrt(3) / 2 * math.pow(circle_r_, 2)) / b
+        # y = y + circle_center[1]
+        # x = x + circle_center[0]
+        
+        y = math.cos(angle_v) * b + math.sin(angle_v) * a
+        x = (a * y - math.sin(angle_v) * math.pow(circle_r_, 2)) / b
         y = y + circle_center[1]
         x = x + circle_center[0]
     else:
@@ -105,7 +118,7 @@ if __name__ == "__main__":
                         predict_circle_r = 0
                         for i, boxpoint in enumerate(box):
                             predict_circle_r = math.sqrt(math.pow(boxpoint[0] - circle_center[0], 2) + pow(boxpoint[1] - circle_center[1], 2))
-                            predict_point = predict_solve(boxpoint[0] - circle_center[0], boxpoint[1] - circle_center[1], predict_circle_r, circle_center, rotation_num)
+                            predict_point = predict_solve(boxpoint[0] - circle_center[0], boxpoint[1] - circle_center[1], predict_circle_r, circle_center, rotation_num, angle_v)
                             box_predict.append(predict_point)
                         box_predict = np.int0(box_predict)
                         cv2.drawContours(contour_image, [box_predict], 0, (0, 255, 255), 2)
@@ -115,9 +128,19 @@ if __name__ == "__main__":
                             print(point)
                     
                     # 旋转方向判断利用rotation_num进行滤波，过滤掉异常值
-                    temp_rotation_angle = min_rect.getRect()[2]
+                    if circle_center != None:
+                        temp_rotation_angle = min_rect.getRect()[0]
+                        temp_rotation_angle = list(temp_rotation_angle)
+                        temp_rotation_angle[0] = temp_rotation_angle[0] - circle_center[0]
+                        temp_rotation_angle[1] = temp_rotation_angle[1] - circle_center[1]
+                        temp_rotation_angle = math.atan(temp_rotation_angle[1] / temp_rotation_angle[0])
+                    
                     rotation_orien = temp_rotation_angle - rotation_angle
                     rotation_angle = temp_rotation_angle
+                    
+                    angle_v = rotation_orien / (1 / frame_rate)
+                    angle_speedlist.append(angle_v)
+                    
                     if rotation_orien > 0:
                         rotation_num += 1
                     if rotation_orien < 0:
@@ -146,3 +169,22 @@ if __name__ == "__main__":
     cap.release()
     writer.release()
     cv2.destroyAllWindows()
+    
+    
+    # 过滤掉异常值
+    filtered_angle_speedlist = []
+    filtered_time_list = []
+    for i, angle_speed in enumerate(angle_speedlist):
+        if -3 <= angle_speed <= 3:
+            filtered_angle_speedlist.append(angle_speed)
+
+    # 绘制曲线
+    plt.figure(figsize=(10, 6))
+    plt.plot(filtered_angle_speedlist, color='b')
+    plt.xlabel('Time')
+    plt.ylabel('Angle Speed')
+    plt.title('Angle Speed vs Time')
+    plt.ylim(-3, 3)  # Set y-axis limit
+    plt.grid()
+    plt.show()
+    
